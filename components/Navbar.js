@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Navbar() {
-  return <div>
+  return (<div>
 
     <style jsx>
       {`
@@ -10,5 +10,5 @@ export default function Navbar() {
         }
       `}
     </style>
-  </div>;
+  </div>);
 }
