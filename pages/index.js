@@ -11,10 +11,10 @@ export default function Home() {
         <title>PV-Prod1</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
         <Navbar />
         <Sidebar />
-        <Landing />
+      <Layout>
+          <Landing />
       </Layout>
       <Layout>
         <h1>Sect2</h1>

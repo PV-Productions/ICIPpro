@@ -2,20 +2,21 @@ import React from "react";
 import Particles from "react-particles-js";
 
 export default function Landing() {
+  const [wWidth, setwWidth] = React.useState(0);
+  React.useEffect(()=>{
+    setwWidth(window.innerWidth);
+  })
   return (
-    <div className="landing">
+    <div className="landing" style={{width:(wWidth>560?"80vw":"100vw"),float:"right"}}>
+
       <div className="heading">
+    
         <h1>ICInPro </h1>
         <h2>2020</h2>
+       
       </div>
-      <div
-        style={{
-          backgroundColor: "rgb(40,40,40)",
-          width: "100%",
-          height: "100vh",
-        }}
-      >
-        <Particles
+ 
+        {/* <Particles
           params={{
             particles: {
               number: {
@@ -34,31 +35,29 @@ export default function Landing() {
               },
             },
           }}
-        />
-      </div>
+        /> */}
+
       <style jsx>
         {`
           .landing {
-            margin-left: 300px;
-          }
-          .heading {
-            position: absolute;
-            width: 50%;
-            height: 60%;
+           
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
+            background-color:rgb(40,40,40);
+           
+            height: 100vh;
           }
+     
           .heading h1 {
-            font-size: 140px;
+            font-size: 100px;
             color: white;
             font-weight: 500;
           }
           .heading h2 {
-            position: absolute;
-            top: 40%;
-            font-size: 120px;
+           
+            font-size: 20px;
             color: white;
           }
         `}

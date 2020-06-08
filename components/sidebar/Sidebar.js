@@ -1,9 +1,13 @@
 import React from "react";
 
 export default function Sidebar() {
+  const [wWidth, setwWidth] = React.useState(0);
+  React.useEffect(()=>{
+    setwWidth(window.innerWidth);
+  })
   return (
     <div>
-      <div className="sidenav">
+      <div className="sidenav" style={{width:(wWidth>560?"20vw":"0vw")}}>
         <a href="#about">Conference program schedule</a>
         <a href="#services">Tutorial Program</a>
         <a href="#clients">Keynote Speakers</a>
@@ -24,7 +28,7 @@ export default function Sidebar() {
         {`
           .sidenav {
             height: 100%;
-            width: 300px;
+           
             position: fixed;
             z-index: 1;
             top: 0;

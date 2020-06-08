@@ -7,7 +7,7 @@ const Layout = (props) => {
         {`
           .section {
             height: 100vh;
-            width: 100%;
+            width:100%;
           }
         `}
       </style>
