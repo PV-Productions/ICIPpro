@@ -48,11 +48,12 @@ export default function Navbar() {
         {`
           .navbar {
             font-size: 18px;
-            background-color: transparent;
-
+            background-color: rgba(250,250,250,0.9);
+            color:black;
             padding-bottom: 10px;
-
+            box-shadow: 2px 2px 20px 5px lightgray;
             width: 80vw;
+            border-bottom:2px solid rgb(178,34,34);
           }
 
           .main-nav {
@@ -63,7 +64,7 @@ export default function Navbar() {
           .nav-links,
           .logo {
             text-decoration: none;
-            color: rgba(255, 255, 255, 0.7);
+           
           }
 
           .main-nav li {

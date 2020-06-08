@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/Navbar";
+import Sponsor from "../../components/navbar/Sponsor";
 
 export default function Sponsors() {
   return (
@@ -17,11 +18,9 @@ export default function Sponsors() {
        
         <Sidebar />
       <Layout>
-        
+        <Sponsor/>
       </Layout>
-      <Layout>
-        <h1>Sect2</h1>
-      </Layout>
+     
 
       <style jsx>{`
         .container {
