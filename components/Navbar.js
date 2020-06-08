@@ -24,29 +24,22 @@ export default function Navbar() {
         <img src="/logo2.png" alt="logo" className="logo" />
         <ul className="main-nav" id="js-menu">
           <li>
-            <a href="#" className="nav-links">
-              Home
-            </a>
+            <a className="nav-links">Home</a>
           </li>
           <li>
-            <a href="#" className="nav-links">
-              Products
-            </a>
+            <a className="nav-links">Committees</a>
           </li>
           <li>
-            <a href="#" className="nav-links">
-              About Us
-            </a>
+            <a className="nav-links">Contact Us</a>
           </li>
           <li>
-            <a href="#" className="nav-links">
-              Contact Us
-            </a>
+            <a className="nav-links">Archives</a>
           </li>
           <li>
-            <a href="#" className="nav-links">
-              Blog
-            </a>
+            <a className="nav-links">Sponsors</a>
+          </li>
+          <li>
+            <a className="nav-links">Journal</a>
           </li>
         </ul>
       </nav>
