@@ -10,12 +10,19 @@ export default function Home() {
       <Head>
         <title>PV-Prod1</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+          rel="stylesheet"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        ></link>
       </Head>
-        <Navbar />
-        <Sidebar />
+      <Navbar />
+      <Sidebar />
       <Layout>
-          <Landing />
+        <Landing />
       </Layout>
       <Layout>
         <h1>Sect2</h1>
