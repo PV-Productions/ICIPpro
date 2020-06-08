@@ -6,7 +6,7 @@ const Layout = (props) => {
       <style jsx>
         {`
           .section {
-            height: 100vh;
+            height: auto;
             width:100%;
           }
         `}

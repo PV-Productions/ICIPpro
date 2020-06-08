@@ -1,9 +1,38 @@
-import React from 'react'
+import Head from "next/head";
+import Layout from "../../components/Layout";
 
-export default function contact() {
-    return (
-        <div>
-            
-        </div>
-    )
+import Sidebar from "../../components/sidebar/Sidebar";
+import Navbar from "../../components/Navbar";
+import ContactUs from "../../components/navbar/ContactUs";
+
+export default function Contact() {
+  return (
+    <>
+     <Navbar />
+    <div className="container">
+      <Head>
+        <title>PV-Prod1</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
+      </Head>
+       
+        <Sidebar />
+      <Layout>
+          <ContactUs/>
+      </Layout>
+     
+
+      <style jsx>{`
+        .container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%;
+          height: 100vh;
+        }
+      `}</style>
+    </div>
+      </>
+  );
 }

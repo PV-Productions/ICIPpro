@@ -6,13 +6,15 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
+    <>
+     <Navbar />
     <div className="container">
       <Head>
         <title>PV-Prod1</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
       </Head>
-        <Navbar />
+       
         <Sidebar />
       <Layout>
           <Landing />
@@ -32,5 +34,6 @@ export default function Home() {
         }
       `}</style>
     </div>
+      </>
   );
 }
