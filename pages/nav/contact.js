@@ -11,8 +11,8 @@ export default function Contact() {
      <Navbar />
     <div className="container">
       <Head>
-        <title>PV-Prod1</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>ICInPro-Contact Us</title>
+        <link rel="icon" href="/logo2.png" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
       </Head>
        
