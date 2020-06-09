@@ -69,7 +69,7 @@ export default function Navbar() {
             color: black;
             padding-bottom: 10px;
             box-shadow: 2px 2px 20px 5px lightgray;
-            height: 10vh;
+            height: 15vh;
             border-bottom: 2px solid rgb(178, 34, 34);
           }
 
