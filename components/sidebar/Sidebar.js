@@ -28,7 +28,7 @@ export default function Sidebar() {
         {`
           .sidenav {
             height: 100%;
-           
+            box-shadow:1px 1px 20px 5px rgba(1,1,1,0.5);
             position: fixed;
             z-index: 1;
             top: 0;

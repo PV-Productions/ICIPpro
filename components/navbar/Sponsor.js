@@ -46,7 +46,7 @@ export default function Sponsor() {
                     }
                     .one{
                         width:50%
-                        padding:200px;
+                      
                         border:1px solid rgba(240,240,240,0.7);
                         box-shadow:2px 2px 10px 5px rgba(240,240,240,0.7);
                     }
