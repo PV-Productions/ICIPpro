@@ -1,14 +1,20 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
     setwWidth(window.innerWidth);
   });
+  // let mainNav = document.getElementById("js-menu");
+  // let navBarToggle = document.getElementById("js-navbar-toggle");
+  // navBarToggle.addEventListener("click", function () {
+  //   mainNav.classList.toggle("active");
+  // });
   return (
     <div
       style={{
-        width: (wWidth > 560 ? "80vw" : "100vw"),
+        width: wWidth > 560 ? "80vw" : "100vw",
         float: "right",
         position: "absolute",
         zIndex: 9999,
@@ -18,28 +24,37 @@ export default function Navbar() {
       }}
     >
       <nav className="navbar">
-        <span className="navbar-toggle" id="js-navbar-toggle">
-          <i className="fas fa-bars"></i>
-        </span>
         <img src="/logo2.png" alt="logo" className="logo" />
         <ul className="main-nav" id="js-menu">
           <li>
-            <a className="nav-links">Home</a>
+            <Link href="/">
+              <a className="nav-links">Home</a>
+            </Link>
           </li>
           <li>
-            <a className="nav-links">Committees</a>
+            <Link href="/nav/committees">
+              <a className="nav-links">Committees</a>
+            </Link>
           </li>
           <li>
-            <a className="nav-links">Contact Us</a>
+            <Link href="/nav/contact">
+              <a className="nav-links">Contact Us</a>
+            </Link>
           </li>
           <li>
-            <a className="nav-links">Archives</a>
+            <Link href="/nav/archive">
+              <a className="nav-links">Archives</a>
+            </Link>
           </li>
           <li>
-            <a className="nav-links">Sponsors</a>
+            <Link href="/nav/sponsors">
+              <a className="nav-links">Sponsors</a>
+            </Link>
           </li>
           <li>
-            <a className="nav-links">Journal</a>
+            <Link href="/nav/jounral">
+              <a className="nav-links">Journal</a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -47,34 +62,46 @@ export default function Navbar() {
       <style jsx>
         {`
           .navbar {
-            font-size: 18px;
-            background-color: rgba(250,250,250,0.6);
-            color:black;
+            font-size: 11.5px;
+            background-color: rgba(250, 250, 250, 0.8);
+            color: black;
             padding-bottom: 10px;
             box-shadow: 2px 2px 20px 5px lightgray;
-          
-            border-bottom:2px solid rgb(178,34,34);
+            height: 10vh;
+            border-bottom: 2px solid rgb(178, 34, 34);
           }
 
           .main-nav {
             list-style-type: none;
-            display: none;
+            display: flex;
+            margin-right: 30px;
+            margin-top: -55px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
           }
 
           .nav-links,
           .logo {
             text-decoration: none;
-           
+            color: black;
           }
 
           .main-nav li {
             text-align: center;
-            margin: 15px auto;
+
+            padding: 10px;
+          }
+          .main-nav li:nth-child(3) {
+            display: none;
           }
 
           .logo {
-            width: 200px;
-            height: 150px;
+            width: 150px;
+            height: 130px;
+
+            margin-top: -35px;
           }
 
           .navbar-toggle {
@@ -97,17 +124,24 @@ export default function Navbar() {
               padding-bottom: 0;
               height: 10vh;
               align-items: center;
+              font-size: 18px;
             }
 
             .main-nav {
               display: flex;
               margin-right: 30px;
+              margin-top: 10px;
+              font-weight: 300;
               flex-direction: row;
               justify-content: flex-end;
             }
 
             .main-nav li {
               margin: 0;
+              padding: 0px;
+            }
+            .main-nav li:nth-child(3) {
+              display: block;
             }
 
             .nav-links {
@@ -116,6 +150,8 @@ export default function Navbar() {
 
             .logo {
               margin-top: 0;
+              width: 200px;
+              height: 150px;
             }
 
             .navbar-toggle {
