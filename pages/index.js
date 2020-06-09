@@ -3,8 +3,14 @@ import Layout from "../components/Layout";
 import Landing from "../components/Landing";
 import Sidebar from "../components/sidebar/Sidebar";
 import Navbar from "../components/Navbar";
+import Logos from "../components/Logos";
+import Slider from "../components/Slider";
 
 export default function Home() {
+  const [wWidth, setwWidth] = React.useState(0);
+  React.useEffect(() => {
+    setwWidth(window.innerWidth);
+  });
   return (
     <>
       <Navbar />
@@ -20,7 +26,6 @@ export default function Home() {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           ></link>
-          <script type="text/javascript" src="/static/nav.js"></script>
         </Head>
 
         <Sidebar />
@@ -28,9 +33,26 @@ export default function Home() {
           <Landing />
         </Layout>
         <Layout>
-          <h1>Sect2</h1>
+          <Logos /> <Slider />
         </Layout>
-
+        <footer
+          style={{
+            width: wWidth > 560 ? "80vw" : "100vw",
+            float: "right",
+            height: "4vh",
+            backgroundColor: "rgb(20,20,20)",
+            color: "white",
+            textAlign: "center",
+            padding: 4,
+            marginLeft: "auto",
+            right: 0,
+            fontSize: "14px",
+          }}
+        >
+          {" "}
+          ©UVCE 2020-21 All rights reserved || Designed and Developed by
+          Pavan&Varun
+        </footer>
         <style jsx>{`
           .container {
             display: flex;

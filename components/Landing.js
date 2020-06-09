@@ -69,7 +69,9 @@ export default function Landing() {
             z-index: 999;
           }
           .heading h1 {
-            font-size: 75px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 10px black;
+            font-size: 60px;
             color: white;
             font-weight: 500;
           }
@@ -87,6 +89,7 @@ export default function Landing() {
           }
           .but1 {
             color: black;
+            transition: all 0.3s ease-in-out;
             background-color: white;
             border: 3px solid white;
             width: 250px;
@@ -96,6 +99,11 @@ export default function Landing() {
             font-size: 15px;
             outline: none;
             cursor: pointer;
+          }
+          .but1:hover {
+            background-color: transparent;
+            transition: all 0.3s ease-in-out;
+            color: white;
           }
           .but2 {
             background-color: transparent;
@@ -110,12 +118,21 @@ export default function Landing() {
             outline: none;
             cursor: pointer;
           }
+          .but2:hover {
+            background-color: white;
+            transition: all 0.3s ease-in-out;
+            color: black;
+          }
           .downicon {
             position: absolute;
             top: 90%;
             color: white;
             z-index: 99;
             cursor: pointer;
+            transition: all 0.3s ease-in-out;
+          }
+          .downicon:hover {
+            transform: scale(1.4);
           }
 
           .landing video {

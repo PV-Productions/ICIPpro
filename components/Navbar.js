@@ -6,11 +6,7 @@ export default function Navbar() {
   React.useEffect(() => {
     setwWidth(window.innerWidth);
   });
-  // let mainNav = document.getElementById("js-menu");
-  // let navBarToggle = document.getElementById("js-navbar-toggle");
-  // navBarToggle.addEventListener("click", function () {
-  //   mainNav.classList.toggle("active");
-  // });
+
   return (
     <div
       style={{
@@ -146,6 +142,7 @@ export default function Navbar() {
 
             .nav-links {
               margin-left: 40px;
+              transition: all 0.2s ease-in-out;
             }
 
             .logo {
@@ -161,6 +158,7 @@ export default function Navbar() {
             .logo:hover,
             .nav-links:hover {
               color: rgba(255, 255, 255, 1);
+              transition: all 0.2s ease-in-out;
             }
           }
         `}
