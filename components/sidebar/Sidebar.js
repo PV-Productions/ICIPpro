@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Sidebar() {
   const [wWidth, setwWidth] = React.useState(0);
-  React.useEffect(()=>{
+  React.useEffect(() => {
     setwWidth(window.innerWidth);
-  })
+  });
   return (
     <div>
-      <div className="sidenav" style={{width:(wWidth>560?"20vw":"0vw")}}>
+      <div className="sidenav" style={{ width: wWidth > 560 ? "20vw" : "0vw" }}>
         <a href="#about">Conference program schedule</a>
         <a href="#services">Tutorial Program</a>
         <a href="#clients">Keynote Speakers</a>
@@ -28,18 +28,18 @@ export default function Sidebar() {
         {`
           .sidenav {
             height: 100%;
-           
+
             position: fixed;
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: rgb(178,34,34);
+            background-color: rgb(178, 34, 34);
             overflow-x: hidden;
             padding-top: 20px;
           }
 
           .sidenav a {
-            padding: 13px 18px 16px 0px;
+            padding: 15px 18px 16px 0px;
             text-align: center;
             text-decoration: none;
             font-size: 17px;
