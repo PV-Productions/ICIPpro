@@ -8,7 +8,7 @@ import Committee from "../../components/navbar/Committee";
 export default function Committees() {
   return (
     <>
-     
+     <Navbar/>
     <div className="container">
       <Head>
         <title>PV-Prod1</title>
