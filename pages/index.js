@@ -76,7 +76,7 @@ export default function Home() {
         >
           {" "}
           ©UVCE 2020-21 All rights reserved || Designed and Developed by
-          Pavan&Varun
+          PV-Productions
         </footer>
         <style jsx>{`
           .container {
@@ -88,7 +88,7 @@ export default function Home() {
             height: 100vh;
           }
           footer {
-            height: ${wWidth > 560 ? "4vh" : "5vh"};
+            height: ${wWidth > 560 ? "4vh" : "6vh"};
           }
         `}</style>
       </div>

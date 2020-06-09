@@ -85,7 +85,7 @@ export default function Landing() {
             display: flex;
             align-items: center;
             justify-content: space-around;
-            margin-top: ${wWidth > 560 ? "0px" : "200px"};
+            margin-top: ${wWidth > 560 ? "0px" : "170px"};
             z-index: 99;
           }
           .but1 {
@@ -100,6 +100,7 @@ export default function Landing() {
             font-size: 15px;
             outline: none;
             cursor: pointer;
+            display: ${wWidth > 560 ? "block" : "none"};
           }
           .but1:hover {
             background-color: transparent;
@@ -107,8 +108,8 @@ export default function Landing() {
             color: white;
           }
           .but2 {
-            background-color: transparent;
-            color: white;
+            background-color: ${wWidth > 560 ? "transparent" : "white"};
+            color: ${wWidth > 560 ? "white" : "black"};
             transition: all 0.3s ease-in-out;
             border: 3px solid white;
             width: 250px;
@@ -131,7 +132,7 @@ export default function Landing() {
             z-index: 99;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
-            margin-top: ${wWidth > 560 ? "0px" : "290px"};
+            margin-top: ${wWidth > 560 ? "0px" : "250px"};
           }
           .downicon:hover {
             transform: scale(1.4);
