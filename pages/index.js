@@ -33,6 +33,31 @@ export default function Home() {
           <Landing />
         </Layout>
         <Layout>
+          <div
+            style={{
+              width: wWidth > 560 ? "80vw" : "100vw",
+              float: "right",
+            }}
+          >
+            <h3
+              style={{
+                textAlign: "center",
+                backgroundColor: "lightgrey",
+                color: "white",
+                padding: 20,
+                boxShadow: "2px 2px 10px 5px rgba(220,220,220,0.5)",
+                textShadow: "1px 1px 5px black",
+              }}
+            >
+              Scroll down to view the various Tracks! Click{" "}
+              <a href="http://icipbangalore.org/" target="_blank">
+                here
+              </a>{" "}
+              to go to the 2019 ICInPro
+            </h3>
+          </div>
+        </Layout>
+        <Layout>
           <Logos /> <Slider />
         </Layout>
         <footer

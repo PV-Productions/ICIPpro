@@ -34,7 +34,9 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/nav/contact">
-              <a className="nav-links">Contact Us</a>
+              <a className="nav-links">
+                {wWidth > 560 ? "Contact Us" : "Contact"}
+              </a>
             </Link>
           </li>
           <li>
@@ -48,9 +50,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/nav/jounral">
-              <a className="nav-links">Journal</a>
-            </Link>
+            <a
+              href="http://www.ijipbangalore.org/"
+              className="nav-links"
+              target="_blank"
+            >
+              Journal
+            </a>
           </li>
         </ul>
       </nav>
@@ -89,7 +95,7 @@ export default function Navbar() {
 
             padding: 10px;
           }
-          .main-nav li:nth-child(3) {
+          .main-nav li:nth-child(4) {
             display: none;
           }
 
@@ -136,7 +142,7 @@ export default function Navbar() {
               margin: 0;
               padding: 0px;
             }
-            .main-nav li:nth-child(3) {
+            .main-nav li:nth-child(4) {
               display: block;
             }
 
