@@ -39,7 +39,12 @@ export default function Landing() {
             <source type="video/mp4" src="/main.mp4" />
           </video>
         ) : (
-          <div></div>
+          <div style={{ position: "absolute", height: "100vh" }}>
+            <img
+              src="https://images.jdmagicbox.com/comp/bangalore/26/080p5000426/catalogue/uvce-college-kr-circle-bangalore-colleges-f8ctiyoz49.jpg"
+              style={{ height: "100vh" }}
+            />
+          </div>
         )}
       </div>
       <style jsx>
@@ -70,10 +75,12 @@ export default function Landing() {
           }
           .heading h1 {
             text-transform: uppercase;
-            text-shadow: 1px 1px 10px black;
+            text-shadow: ${wWidth > 560
+              ? "1px 1px 10px black"
+              : "5px 5px 20px black"};
             font-size: ${wWidth > 560 ? "60px" : "37px"};
             color: white;
-            font-weight: 500;
+            font-weight: ${wWidth > 560 ? "500" : "900"};
           }
           .heading h3 {
             font-size: ${wWidth > 560 ? "25px" : "15px"};

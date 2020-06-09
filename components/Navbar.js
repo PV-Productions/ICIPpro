@@ -59,6 +59,11 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
+        <div style={{ position: "absolute", top: 0, right: 0 }}>
+          <div className="menu"></div>
+          <div className="menu"></div>
+          <div className="menu"></div>
+        </div>
       </nav>
 
       <style jsx>
@@ -118,6 +123,12 @@ export default function Navbar() {
           .active {
             display: block;
           }
+          .menu {
+            width: 30px;
+            height: 4px;
+            background-color: black;
+            margin: 6px 10px;
+          }
 
           @media screen and (min-width: 768px) {
             .navbar {
@@ -160,10 +171,13 @@ export default function Navbar() {
             .navbar-toggle {
               display: none;
             }
+            .menu {
+              display: none;
+            }
 
             .logo:hover,
             .nav-links:hover {
-              color: rgba(255, 255, 255, 1);
+              color: rgba(0, 0, 0, 0.7);
               transition: all 0.2s ease-in-out;
             }
           }

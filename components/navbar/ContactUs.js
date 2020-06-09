@@ -28,7 +28,10 @@ export default function ContactUs() {
       </div>
 
       <div>
-        <div className="mapouter">
+        <div
+          className="mapouter"
+          style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+        >
           <div className="gmap_canvas">
             <iframe
               width={wWidth}

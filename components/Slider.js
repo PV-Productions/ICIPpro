@@ -38,7 +38,12 @@ export default function Sliders() {
         // paddingBottom: "5px",
       }}
     >
-      <Slider duration={2000} infinte={true} autoplay={500}>
+      <Slider
+        duration={2000}
+        infinte={true}
+        autoplay={500}
+        touchDisabled={true}
+      >
         {slides.map((slide, index) => (
           <div
             key={index}

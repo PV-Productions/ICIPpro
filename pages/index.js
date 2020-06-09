@@ -58,13 +58,13 @@ export default function Home() {
           </div>
         </Layout>
         <Layout>
-          <Logos /> <Slider />
+          <Logos />
+          <Slider />
         </Layout>
         <footer
           style={{
             width: wWidth > 560 ? "80vw" : "100vw",
             float: "right",
-
             backgroundColor: "rgb(20,20,20)",
             color: "white",
             textAlign: "center",
@@ -74,7 +74,6 @@ export default function Home() {
             fontSize: "14px",
           }}
         >
-          {" "}
           ©UVCE 2020-21 All rights reserved || Designed and Developed by
           PV-Productions
         </footer>
