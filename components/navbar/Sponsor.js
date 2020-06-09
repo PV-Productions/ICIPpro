@@ -34,7 +34,7 @@ export default function Sponsor() {
                         justify-content: space-around;
                         align-items: center;
                         flex-wrap:wrap;
-                        margin-top:10vh;
+                        margin-top:15vh;
                        
                     }
                     .headerS{

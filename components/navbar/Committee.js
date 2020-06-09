@@ -126,7 +126,7 @@ export default function Committee() {
                         align-items:center;
                         height:auto;
                         flex-wrap:wrap;
-                        margin-top:10vh;
+                        margin-top:15vh;
                         text-align:center;
                     }
                     .header{
