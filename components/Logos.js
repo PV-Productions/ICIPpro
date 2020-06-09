@@ -50,16 +50,20 @@ export default function Logos() {
           align-items: center;
           justify-content: space-around;
           flex-wrap: wrap;
-          height: 40vh;
+          height: ${wWidth > 560 ? "40vh" : "20vh"};
         }
         img {
-          width: 22%;
+          width: ${wWidth > 560 ? "22%" : "40%"};
+        }
+        img:nth-child(2) {
+          width: ${wWidth > 560 ? "30%" : "70%"};
         }
         .card {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-          padding: 75px;
+          padding: ${wWidth > 560 ? "75px" : "30px"};
           text-align: center;
           font-size: 20px;
+          display: ${wWidth > 560 ? "block" : "none"};
         }
       `}</style>
     </div>

@@ -39,7 +39,7 @@ export default function Home() {
           style={{
             width: wWidth > 560 ? "80vw" : "100vw",
             float: "right",
-            height: "4vh",
+
             backgroundColor: "rgb(20,20,20)",
             color: "white",
             textAlign: "center",
@@ -61,6 +61,9 @@ export default function Home() {
             flex-wrap: wrap;
             width: 100%;
             height: 100vh;
+          }
+          footer {
+            height: ${wWidth > 560 ? "4vh" : "5vh"};
           }
         `}</style>
       </div>

@@ -71,20 +71,21 @@ export default function Landing() {
           .heading h1 {
             text-transform: uppercase;
             text-shadow: 1px 1px 10px black;
-            font-size: 60px;
+            font-size: ${wWidth > 560 ? "60px" : "37px"};
             color: white;
             font-weight: 500;
           }
           .heading h3 {
-            font-size: 25px;
+            font-size: ${wWidth > 560 ? "25px" : "15px"};
           }
           .buttons {
             position: absolute;
             top: 80%;
-            width: 50vw;
+            width: ${wWidth > 560 ? "50vw" : "90vw"};
             display: flex;
             align-items: center;
             justify-content: space-around;
+            margin-top: ${wWidth > 560 ? "0px" : "200px"};
             z-index: 99;
           }
           .but1 {
@@ -130,6 +131,7 @@ export default function Landing() {
             z-index: 99;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
+            margin-top: ${wWidth > 560 ? "0px" : "290px"};
           }
           .downicon:hover {
             transform: scale(1.4);
