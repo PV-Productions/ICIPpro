@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Sidebar() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -18,9 +18,9 @@ export default function Sidebar() {
         <a href="#contact">Registration</a>
         <a href="#about">Call for papers</a>
         <a href="#services">Important dates</a>
-        <a href="#clients">Author guidelines</a>
-        <a href="#contact">Venue</a>
-        <a href="#about">Accomodation</a>
+        <Link href="/sb/guidelines"><a>Author guidelines</a></Link>
+        <Link href="/sb/venue"><a>Venue</a></Link>
+        <Link href="/sb/accomodation"><a>Accomodation</a></Link>
         <a href="#services">About Us</a>
         <a href="#clients">Photo gallery</a>
       </div>

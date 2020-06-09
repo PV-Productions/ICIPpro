@@ -12,7 +12,7 @@ export default function Navbar() {
       style={{
         width: wWidth > 560 ? "80vw" : "100vw",
         float: "right",
-        position: "absolute",
+        position: "fixed",
         zIndex: 9999,
         top: 0,
         marginLeft: "auto",
