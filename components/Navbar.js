@@ -13,7 +13,7 @@ export default function Navbar() {
         width: wWidth > 560 ? "80vw" : "100vw",
         float: "right",
         position: "fixed",
-        zIndex: 9999,
+        zIndex: 999,
         top: 0,
         marginLeft: "auto",
         right: 0,

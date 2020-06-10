@@ -30,7 +30,7 @@ export default function Sidebar() {
             height: 100%;
             box-shadow: 1px 1px 20px 5px rgba(1, 1, 1, 0.5);
             position: fixed;
-            z-index: 1;
+            z-index: 1000;
             top: 0;
             left: 0;
             background-color: rgb(178, 34, 34);
