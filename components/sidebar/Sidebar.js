@@ -13,10 +13,10 @@ export default function Sidebar() {
         <a href="#clients">Keynote Speakers</a>
         <a href="#contact">Accepted Papers</a>
         <a href="#about">Presentation Guidelines</a>
-        <a href="#services">Cultural program</a>
+        <Link href="/sb/cultural"><a>Cultural program</a></Link>
         <a href="#clients">CRC instructions</a>
         <a href="#contact">Registration</a>
-        <a href="#about">Call for papers</a>
+        <Link href="/sb/callfor"><a>Call for papers</a></Link>
         <a href="#services">Important dates</a>
         <Link href="/sb/guidelines"><a>Author guidelines</a></Link>
         <Link href="/sb/venue"><a>Venue</a></Link>
