@@ -87,6 +87,7 @@ export default function Navbar() {
             align-items: center;
             justify-content: center;
             font-weight: 600;
+            font-family: "Montserrat", sans-serif;
           }
 
           .nav-links,
@@ -147,6 +148,7 @@ export default function Navbar() {
               font-weight: 300;
               flex-direction: row;
               justify-content: flex-end;
+              font-family: "Montserrat", sans-serif;
             }
 
             .main-nav li {
