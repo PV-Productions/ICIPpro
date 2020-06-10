@@ -86,7 +86,7 @@ export default function Navbar() {
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            font-weight: 900;
+            font-weight: 600;
           }
 
           .nav-links,

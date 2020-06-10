@@ -34,6 +34,7 @@ export default function Home() {
         </Layout>
         <Layout>
           <div
+            className="sect1"
             style={{
               width: wWidth > 560 ? "80vw" : "100vw",
               float: "right",
@@ -59,8 +60,28 @@ export default function Home() {
         </Layout>
         <Layout>
           <Logos />
+          <div
+            style={{
+              width: wWidth > 560 ? "80vw" : "100vw",
+              float: "right",
+            }}
+          >
+            <h3
+              style={{
+                textAlign: "center",
+                backgroundColor: "lightgrey",
+                color: "white",
+                padding: 80,
+                boxShadow: "2px 2px 10px 5px rgba(220,220,220,0.5)",
+                textShadow: "1px 1px 5px black",
+              }}
+            >
+              Tracks to be updated.
+            </h3>
+          </div>
           <Slider />
         </Layout>
+
         <footer
           style={{
             width: wWidth > 560 ? "80vw" : "100vw",

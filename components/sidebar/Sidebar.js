@@ -34,7 +34,9 @@ export default function Sidebar() {
         <Link href="/sb/about">
           <a>About Us</a>
         </Link>
-        <a href="#clients">Photo gallery</a>
+        <Link href="sb/gallery">
+          <a>Photo gallery</a>
+        </Link>
       </div>
       <style jsx>
         {`

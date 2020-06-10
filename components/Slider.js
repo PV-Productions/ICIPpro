@@ -33,7 +33,7 @@ export default function Sliders() {
       style={{
         width: wWidth > 560 ? "80vw" : "100vw",
         float: "right",
-        paddingTop: "50px",
+        // paddingTop: "50px",
 
         // paddingBottom: "5px",
       }}

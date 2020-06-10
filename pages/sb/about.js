@@ -76,6 +76,10 @@ export default function venue() {
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
             text-align: center;
+            text-shadow: ${
+              wWidth > 560 ? "1px 1px 4px black" : "0px 0px 0px black"
+            };
+          }
           }
           .pics {
             display: flex;
@@ -96,10 +100,10 @@ export default function venue() {
             align-items: center;
             justify-content: space-around;
             flex-wrap: wrap;
-            width: ${wWidth > 560 ? "80vw" : "100vw"};
+            width: ${wWidth > 560 ? "60vw" : "100vw"};
           }
           .team img {
-            width: 25%;
+            width:${wWidth > 560 ? "33%" : "50%"};
             height: 35vh;
           }
         `}</style>

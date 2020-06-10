@@ -1,5 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 export default function Landing() {
   const [wWidth, setwWidth] = React.useState(0);
@@ -15,11 +17,21 @@ export default function Landing() {
       <div className="wrapper">
         <div className="heading">
           <h1>
-            International Conference <br />
-            On
-            <br />
-            Information processing
-            <h3>ICINpro-2020</h3>
+            <Zoom duration={800} delay={200}>
+              {" "}
+              International Conference{" "}
+            </Zoom>{" "}
+            <Zoom duration={800} delay={500}>
+              {" "}
+              On
+            </Zoom>
+            <Zoom duration={800} delay={900}>
+              {" "}
+              Information processing
+            </Zoom>
+            <Fade duration={1500} delay={1300}>
+              <h3>ICINpro-2020</h3>
+            </Fade>
           </h1>
         </div>
         <div className="buttons">
@@ -27,7 +39,9 @@ export default function Landing() {
           <button className="but2">Register</button>
         </div>
         <div className="downicon">
-          <i className="fa fa-angle-down" style={{ fontSize: "40px" }}></i>
+          <Fade top duration={1700} forever={true}>
+            <i className="fa fa-angle-down" style={{ fontSize: "40px" }}></i>
+          </Fade>
         </div>
 
         <div
