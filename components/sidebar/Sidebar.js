@@ -13,15 +13,27 @@ export default function Sidebar() {
         <a href="#clients">Keynote Speakers</a>
         <a href="#contact">Accepted Papers</a>
         <a href="#about">Presentation Guidelines</a>
-        <Link href="/sb/cultural"><a>Cultural program</a></Link>
+        <Link href="/sb/cultural">
+          <a>Cultural program</a>
+        </Link>
         <a href="#clients">CRC instructions</a>
         <a href="#contact">Registration</a>
-        <Link href="/sb/callfor"><a>Call for papers</a></Link>
+        <Link href="/sb/callfor">
+          <a>Call for papers</a>
+        </Link>
         <a href="#services">Important dates</a>
-        <Link href="/sb/guidelines"><a>Author guidelines</a></Link>
-        <Link href="/sb/venue"><a>Venue</a></Link>
-        <Link href="/sb/accomodation"><a>Accomodation</a></Link>
-        <a href="#services">About Us</a>
+        <Link href="/sb/guidelines">
+          <a>Author guidelines</a>
+        </Link>
+        <Link href="/sb/venue">
+          <a>Venue</a>
+        </Link>
+        <Link href="/sb/accomodation">
+          <a>Accomodation</a>
+        </Link>
+        <Link href="/sb/about">
+          <a>About Us</a>
+        </Link>
         <a href="#clients">Photo gallery</a>
       </div>
       <style jsx>
