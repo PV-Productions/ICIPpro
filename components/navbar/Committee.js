@@ -24,6 +24,8 @@ export default function Committee() {
             display: "flex",
             justifyContent: "space-around",
             alignItems: "center",
+            flexWrap: "wrap",
+            marginTop: "35px",
           }}
         >
           <img
@@ -40,16 +42,16 @@ export default function Committee() {
           />
         </div>
         <p style={{ width: "100%" }}>
-          R L Kashyap Purdue University, USA N R Shetty Chancellor, Central
-          University of Karnataka, India Keshav Bapat Chairman , IEEE Bangalore
-          Section, India
+          R L Kashyap Purdue University,
+          <br /> USA N R Shetty Chancellor, Central University of Karnataka,
+          <br /> India Keshav Bapat Chairman , IEEE Bangalore Section, India
         </p>
         <hr />
 
         <h1>Conference Chair</h1>
         <img
           src="https://lh3.googleusercontent.com/proxy/99ETLyAawosswx_CbjYrmREG39QaIS9YX6wbqX3QiP2tjtxRcw4svDUkM5QdzgsZpg9lJ0RnvuQHif0og4FyePts-LaF24kbRqjHK7hmHeg"
-          style={{ width: 290, height: 250 }}
+          style={{ width: 290, height: 250, marginTop: "35px" }}
         />
         <p>
           L M Patnaik Adjunct Professor and INSA Senior Scientist, NIAS, India
@@ -149,6 +151,10 @@ export default function Committee() {
           }
           .textC h1 {
             text-align: left;
+          }
+          img {
+            border-radius: 50%;
+            box-shadow: 1px 1px 10px grey;
           }
         `}
       </style>
