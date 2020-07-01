@@ -19,7 +19,27 @@ export default function Committee() {
       <hr />
       <div className="textC">
         <h1>Advisory Committee</h1>
-        <p>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src="https://www.icipbangalore.org/images/rlk1.jpg"
+            style={{ width: 200, height: 200 }}
+          />
+          <img
+            src="https://scontent.fblr2-1.fna.fbcdn.net/v/t1.0-9/15232344_1102667536497583_4762469246346267304_n.jpg?_nc_cat=109&_nc_sid=9267fe&_nc_ohc=LJV0PGrFiZ0AX8Jika5&_nc_ht=scontent.fblr2-1.fna&oh=4372cc1f30475878b29c82ee9ff1565f&oe=5F1FD7EA"
+            style={{ width: 200, height: 200 }}
+          />
+          <img
+            src="https://wie-ils2019.ieeebangalore.org/images/team/Keshav.jpg"
+            style={{ width: 200, height: 200 }}
+          />
+        </div>
+        <p style={{ width: "100%" }}>
           R L Kashyap Purdue University, USA N R Shetty Chancellor, Central
           University of Karnataka, India Keshav Bapat Chairman , IEEE Bangalore
           Section, India
@@ -27,6 +47,10 @@ export default function Committee() {
         <hr />
 
         <h1>Conference Chair</h1>
+        <img
+          src="https://lh3.googleusercontent.com/proxy/99ETLyAawosswx_CbjYrmREG39QaIS9YX6wbqX3QiP2tjtxRcw4svDUkM5QdzgsZpg9lJ0RnvuQHif0og4FyePts-LaF24kbRqjHK7hmHeg"
+          style={{ width: 290, height: 250 }}
+        />
         <p>
           L M Patnaik Adjunct Professor and INSA Senior Scientist, NIAS, India
         </p>
