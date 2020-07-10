@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Committee() {
   const [wWidth, setwWidth] = React.useState(0);
@@ -30,15 +31,24 @@ export default function Committee() {
         >
           <img
             src="https://www.icipbangalore.org/images/rlk1.jpg"
-            style={{ width: 200, height: 200 }}
+            style={{
+              width: wWidth > 560 ? 200 : 150,
+              height: wWidth > 560 ? 200 : 150,
+            }}
           />
           <img
             src="https://scontent.fblr2-1.fna.fbcdn.net/v/t1.0-9/15232344_1102667536497583_4762469246346267304_n.jpg?_nc_cat=109&_nc_sid=9267fe&_nc_ohc=LJV0PGrFiZ0AX8Jika5&_nc_ht=scontent.fblr2-1.fna&oh=4372cc1f30475878b29c82ee9ff1565f&oe=5F1FD7EA"
-            style={{ width: 200, height: 200 }}
+            style={{
+              width: wWidth > 560 ? 200 : 150,
+              height: wWidth > 560 ? 200 : 150,
+            }}
           />
           <img
             src="https://wie-ils2019.ieeebangalore.org/images/team/Keshav.jpg"
-            style={{ width: 200, height: 200 }}
+            style={{
+              width: wWidth > 560 ? 200 : 150,
+              height: wWidth > 560 ? 200 : 150,
+            }}
           />
         </div>
         <p style={{ width: "100%" }}>
@@ -50,8 +60,12 @@ export default function Committee() {
 
         <h1>Conference Chair</h1>
         <img
-          src="https://lh3.googleusercontent.com/proxy/99ETLyAawosswx_CbjYrmREG39QaIS9YX6wbqX3QiP2tjtxRcw4svDUkM5QdzgsZpg9lJ0RnvuQHif0og4FyePts-LaF24kbRqjHK7hmHeg"
-          style={{ width: 290, height: 250, marginTop: "35px" }}
+          src="https://dese.iisc.ac.in/wp-content/uploads/2016/09/f_90.jpg"
+          style={{
+            width: wWidth > 560 ? 290 : 200,
+            height: wWidth > 560 ? 250 : 180,
+            marginTop: "35px",
+          }}
         />
         <p>
           L M Patnaik Adjunct Professor and INSA Senior Scientist, NIAS, India
@@ -76,24 +90,18 @@ export default function Committee() {
         <p>P Deepa Shenoy, UVCE, Bangalore J Thriveni, UVCE, Bangalore</p>
         <hr />
         <h1>Programme Committee</h1>
-        <p>
-          David Kahaner,AIIP, Japan P Sreenivas Kumar, IITM, India Sajal K Das,
-          UTA, USA Sharad Purohit, CDAC, India K Sivarajan, Tejas Networks,
-          India Kentaro Toyama, Microsoft, India Vittal Rao, NSF, USA Ravikiran
-          A, IEEE Region 10 B P Sinha, ISI, Kolkataka, India Rammohanrao
-          Kotagiri, Australia Rajeev Shorey, General Motors, India Asok K
-          Talukdar, IIIB, India Dinesh K Anvekar, Honeywell, India Bhanu Prasad,
-          Florida, USA M Srinivas, Mentor Graphics, India Rajib Mall, IIT
-          Kharagpur, India Bharat Jayaraman, UB, USA Bindhumadhav, IEEE
-          Bangalore Section J Mohan Kumar, UTA, USA Y V S Laxmi, CDoT, India
-          Tomio Hirata, Japan Takao Nishizeki, Japan G Shivakumar, IIT
-          Mumbai,India P Raveendran, University of Malaya Chandrashekaran K,
-          NITK, India Sneha Kasera, University of Utah Bhabani P Sinha, ISI,
-          Kolkata, India Francis Lau, University of Hong Kong P Ramaswamy,
-          University of Essex, UK Nalini V, University of Illinois, USA Suresh
-          M, University of York, UK Teo Yong M,Nat. Uni. of Singapore G Santhosh
-          Kumar, CUSAT, Cochin
-        </p>
+        <Link href="/nav/pc">
+          <button
+            className="butt"
+            style={{
+              fontSize: wWidth > 560 ? "20px" : "12px",
+              padding: wWidth > 560 ? "20px 40px" : "12px 30px",
+            }}
+          >
+            Click here to view the list of members
+          </button>
+        </Link>
+
         <hr />
         <h1>Organizing Committee</h1>
         <p>
@@ -155,6 +163,17 @@ export default function Committee() {
           img {
             border-radius: 50%;
             box-shadow: 1px 1px 10px grey;
+          }
+          .butt {
+            background-color: rgb(178, 34, 34);
+            padding: 20px 40px;
+            outline: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            margin: 40px;
+            border-radius: 5px;
+            text-decoration: none;
           }
         `}
       </style>

@@ -40,23 +40,18 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/nav/archive">
-              <a className="nav-links">Archives</a>
-            </Link>
+            <a
+              className="nav-links"
+              href="http://icipbangalore.org/"
+              target="_blank"
+            >
+              Archives
+            </a>
           </li>
           <li>
             <Link href="/nav/sponsors">
               <a className="nav-links">Sponsors</a>
             </Link>
-          </li>
-          <li>
-            <a
-              href="http://www.ijipbangalore.org/"
-              className="nav-links"
-              target="_blank"
-            >
-              Journal
-            </a>
           </li>
         </ul>
         <div style={{ position: "absolute", top: 0, right: 0 }}>
