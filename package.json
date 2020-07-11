@@ -1,6 +1,7 @@
 {
   "name": "pvprod1",
   "version": "0.1.0",
+  "homepage": "https://icinpro.org",
   "private": true,
   "scripts": {
     "dev": "next dev",
