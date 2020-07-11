@@ -45,7 +45,7 @@ export default function Navbar() {
               href="http://icipbangalore.org/"
               target="_blank"
             >
-              Archives
+              Archive
             </a>
           </li>
           <li>
