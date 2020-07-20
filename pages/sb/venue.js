@@ -1,6 +1,6 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
-
+import Head from "next/head"
 export default function venue() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -8,6 +8,12 @@ export default function venue() {
   });
   return (
     <SBLayout>
+      <Head>
+      <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+          ></link>
+      </Head>
       <div
         className="wrapperVEN"
         style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
@@ -27,7 +33,7 @@ export default function venue() {
             src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
             style={{ width: "40%" }}
           />
-          <div style={{width:"50%"}}>
+          <div style={{width:wWidth > 560 ? "50%" : "100vw"}}>
           <h2>Address</h2><br/>
           <p>
             Address: Department of Computer Science and Engineering, University
@@ -41,7 +47,7 @@ export default function venue() {
           className="mapouter"
           style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
         >
-          <div className="gmap_canvas">
+          <div className="gmap_canvas" style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}>
             <iframe
               width={wWidth}
               height="500"

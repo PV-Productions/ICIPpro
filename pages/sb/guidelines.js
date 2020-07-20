@@ -1,6 +1,7 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
 import Navbar from "../../components/Navbar";
+import Head from "next/head"
 export default function guidelines() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -9,6 +10,12 @@ export default function guidelines() {
   return (
     <>
       <SBLayout>
+      <Head>
+      <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+          ></link>
+      </Head>
         <div
           className="wrapperGUI"
           style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
