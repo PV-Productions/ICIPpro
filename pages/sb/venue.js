@@ -19,7 +19,7 @@ export default function venue() {
           Venue
         </h1>
         <div className="textV">
-          <h1>City Information (Bangalore, Bangaluru)</h1>
+          <h1>Venue Information (Bangalore, Bangaluru)</h1>
           <br />
           <br />
           <p>
@@ -29,28 +29,30 @@ export default function venue() {
             It is India's fifth largest city and India's fifth largest
             metropolitan area, with a 2001 population of about 6.5 million.
           </p>
-
-          <p>
-            After India gained independence in 1947, Bangalore evolved into a
-            manufacturing hub for heavy industries such as Hindustan Aeronautics
-            Limited and Indian Space Research Organization. Within the last
-            decade, the establishment and success of high technology firms in
-            Bangalore have lead to the growth of Information Technology (IT) in
-            India. IT firms in Bangalore employ about 30% of India's pool of 1
-            million IT professionals.
-          </p>
-
-          <p>
-            The city is also the Training Center for the Indian Air Force, the
-            Madras Engineering Group (MEG) and Central Military Police, the
-            latter two being arms of the Indian Army. Bangalore is the
-            scientific hub of India and it has the world renowned and the oldest
-            Research University, Indian Institute of Science. The other research
-            institutes are the Indian Institute of Astrophysics, the Raman
-            Research Institute, the Jawaharlal Nehru Centre for Advanced
-            Scientific Research, the National Center for Biological Science and
-            the Indian Statistical Institute.
-          </p>
+          <img
+            src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
+            style={{ width: "40%" }}
+          />
+        
+          <div>
+        <div
+          className="mapouter"
+          style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+        >
+          <div className="gmap_canvas">
+            <iframe
+              width={wWidth}
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=UVCE&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
         </div>
         <style jsx>
           {`
