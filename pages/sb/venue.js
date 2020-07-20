@@ -22,17 +22,19 @@ export default function venue() {
           <h1>Venue Information (Bangalore, Bangaluru)</h1>
           <br />
           <br />
-          <p>
-            Bangalore is the capital and the largest city of the Indian state of
-            Karnataka. It is also called "Garden City" for its beautiful
-            gardens, flowers and trees which flourish in each and every street.
-            It is India's fifth largest city and India's fifth largest
-            metropolitan area, with a 2001 population of about 6.5 million.
-          </p>
+          <div className="contact">
           <img
             src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
             style={{ width: "40%" }}
           />
+          <div>
+          <h2>Address</h2><br/>
+          <p >
+            Address: Department of Computer Science and Engineering, University
+            Visvesvaraya College of Engineering, Bangalore University, Bengaluru -
+            560 001.
+          </p></div>
+        </div>
         
           <div>
         <div
@@ -80,6 +82,12 @@ export default function venue() {
             }
             .textV p {
               font-size: 20px;
+            }
+            .contact{
+              display:flex;
+              margin-bottom:50px;
+              justify-content:space-between;
+              flex-wrap:wrap;
             }
           `}
         </style>

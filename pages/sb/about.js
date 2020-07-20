@@ -38,12 +38,7 @@ export default function venue() {
           }}
         >
           <p style={{ textAlign: "center" }}>
-            University Visvesvaraya College of Engineering (UVCE) was
-            established in the year 1917 by Bharat Ratna Sir M Visvesvaraya.
-            Currently affiliated to Bangalore University, the College provides
-            six engineering courses – Electronics and Communication, Electrical
-            and Electronics, Mechanical, Computer Science, Information Science
-            and Civil Engineering.
+          The Fifteenth International Conference on Information Processing (ICInPro 2019) will be held in Bangalore, in the month of December 2019. ICInPro 2019 is the Fifteenth Conference in its series aimed at stimulating technical exchange among Scientists and Engineers and capture highly innovative and state of the art Research Papers in the emerging field of Information Processing.
           </p>
           <img
             src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
