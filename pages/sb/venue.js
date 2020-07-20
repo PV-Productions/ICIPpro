@@ -33,26 +33,26 @@ export default function venue() {
             src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
             style={{ width: "40%" }}
           />
-        
+
           <div>
-        <div
-          className="mapouter"
-          style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
-        >
-          <div className="gmap_canvas">
-            <iframe
-              width={wWidth}
-              height="500"
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=UVCE&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-            ></iframe>
+            <div
+              className="mapouter"
+              style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+            >
+              <div className="gmap_canvas">
+                <iframe
+                  width={wWidth}
+                  height="500"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=UVCE&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameBorder="0"
+                  scrolling="no"
+                  marginHeight="0"
+                  marginWidth="0"
+                ></iframe>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
         </div>
         <style jsx>
           {`

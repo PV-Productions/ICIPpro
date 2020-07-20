@@ -8,7 +8,9 @@ export default function Sidebar() {
   return (
     <div>
       <div className="sidenav" style={{ width: wWidth > 560 ? "20vw" : "0vw" }}>
-        <a href="#about">Conference program schedule</a>
+        <Link href="/sb/schedule">
+          <a>Conference program schedule</a>
+        </Link>
         <a href="#services">Tutorial Program</a>
         <a href="#clients">Keynote Speakers</a>
         <a href="#contact">Accepted Papers</a>
