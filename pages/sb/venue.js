@@ -1,6 +1,6 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
-
+import Head from "next/head"
 export default function venue() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -8,6 +8,12 @@ export default function venue() {
   });
   return (
     <SBLayout>
+      <Head>
+      <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+          ></link>
+      </Head>
       <div
         className="wrapperVEN"
         style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
@@ -22,13 +28,7 @@ export default function venue() {
           <h1>Venue Information (Bangalore, Bangaluru)</h1>
           <br />
           <br />
-          <p>
-            Bangalore is the capital and the largest city of the Indian state of
-            Karnataka. It is also called "Garden City" for its beautiful
-            gardens, flowers and trees which flourish in each and every street.
-            It is India's fifth largest city and India's fifth largest
-            metropolitan area, with a 2001 population of about 6.5 million.
-          </p>
+          <div className="contact">
           <img
             src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
             style={{ width: "40%" }}
@@ -80,6 +80,12 @@ export default function venue() {
             }
             .textV p {
               font-size: 20px;
+            }
+            .contact{
+              display:flex;
+              margin-bottom:50px;
+              justify-content:space-between;
+              flex-wrap:wrap;
             }
           `}
         </style>

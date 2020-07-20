@@ -30,7 +30,7 @@ export default function Landing() {
               Information processing
             </Zoom>
             <Fade duration={1500} delay={1300}>
-              <h3>ICINpro-2020</h3>
+              <h3>ICInPro-2021</h3>
             </Fade>
           </h1>
         </div>
@@ -88,7 +88,7 @@ export default function Landing() {
             z-index: 999;
           }
           .heading h1 {
-            text-transform: uppercase;
+           
             text-shadow: ${wWidth > 560
               ? "1px 1px 10px black"
               : "5px 5px 20px black"};

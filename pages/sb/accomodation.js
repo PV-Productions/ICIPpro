@@ -1,6 +1,6 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
-
+import Head from "next/head"
 export default function accomodation() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -8,6 +8,12 @@ export default function accomodation() {
   });
   return (
     <SBLayout>
+      <Head>
+      <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+          ></link>
+      </Head>
       <div
         className="wrapperACC"
         style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
