@@ -27,9 +27,9 @@ export default function venue() {
             src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
             style={{ width: "40%" }}
           />
-          <div>
+          <div style={{width:"50%"}}>
           <h2>Address</h2><br/>
-          <p >
+          <p>
             Address: Department of Computer Science and Engineering, University
             Visvesvaraya College of Engineering, Bangalore University, Bengaluru -
             560 001.
