@@ -12,7 +12,7 @@ export default function venue() {
         className="wrapperVEN"
         style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
       >
-        <div style={{ position: "absolute", left: "50%" }}>hello</div>
+        <embed src="https://docdro.id/ZcbVvKd" width="100%" height="1000px" /> 
       </div>
     </SBLayout>
   );

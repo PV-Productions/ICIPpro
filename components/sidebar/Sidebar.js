@@ -11,14 +11,17 @@ export default function Sidebar() {
         <Link href="/sb/schedule">
           <a>Conference program schedule</a>
         </Link>
-        <a href="#services">Tutorial Program</a>
+        <Link href="/sb/tutorial">
+        <a>Tutorial Program</a></Link>
         <a href="#clients">Keynote Speakers</a>
         <a href="#contact">Accepted Papers</a>
-        <a href="#about">Presentation Guidelines</a>
+        <Link href="/sb/pguidelines">
+        <a >Presentation Guidelines</a></Link>
         <Link href="/sb/cultural">
           <a>Cultural program</a>
         </Link>
-        <a href="#clients">CRC instructions</a>
+        <Link href="/sb/CRC">
+        <a >CRC instructions</a></Link>
         <Link href="/sb/registration">
           <a>Registration</a>
         </Link>

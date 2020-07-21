@@ -17,7 +17,6 @@
     "react-dom": "16.13.1",
     "react-grid-gallery": "^0.5.5",
     "react-particles-js": "^3.2.1",
-    "react-pdf-reader": "^0.1.8",
     "react-reveal": "^1.2.2"
   }
 }
