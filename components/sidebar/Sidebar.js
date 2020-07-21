@@ -25,7 +25,9 @@ export default function Sidebar() {
         <Link href="/sb/callfor">
           <a>Call for papers</a>
         </Link>
-        <a href="#services">Important dates</a>
+        <Link href="/sb/dates">
+          <a>Important dates</a>
+        </Link>
         <Link href="/sb/guidelines">
           <a>Author guidelines</a>
         </Link>
