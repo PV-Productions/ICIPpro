@@ -19,7 +19,9 @@ export default function Sidebar() {
           <a>Cultural program</a>
         </Link>
         <a href="#clients">CRC instructions</a>
-        <a href="#contact">Registration</a>
+        <Link href="/sb/registration">
+          <a>Registration</a>
+        </Link>
         <Link href="/sb/callfor">
           <a>Call for papers</a>
         </Link>

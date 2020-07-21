@@ -1,6 +1,6 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
-import Head from "next/head"
+import Head from "next/head";
 export default function venue() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -9,10 +9,10 @@ export default function venue() {
   return (
     <SBLayout>
       <Head>
-      <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet"
-          ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <div
         className="wrapperVEN"
@@ -29,17 +29,33 @@ export default function venue() {
           <br />
           <br />
           <div className="contact">
-          <img
-            src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
-            style={{ width: "40%" }}
-          />
+            <img
+              src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
+              style={{ width: "40%" }}
+            />
+            <div style={{ width: wWidth > 560 ? "50%" : "100vw" }}>
+              <h2>Address</h2>
+              <br />
+              <p>
+                Address: Department of Computer Science and Engineering,
+                University Visvesvaraya College of Engineering, Bangalore
+                University, Bengaluru - 560 001.
+              </p>
+            </div>
+          </div>
 
           <div>
             <div
               className="mapouter"
               style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
             >
-              <div className="gmap_canvas">
+              <div
+                className="gmap_canvas"
+                style={{
+                  width: wWidth > 560 ? "80vw" : "100vw",
+                  float: "right",
+                }}
+              >
                 <iframe
                   width={wWidth}
                   height="500"
@@ -81,11 +97,11 @@ export default function venue() {
             .textV p {
               font-size: 20px;
             }
-            .contact{
-              display:flex;
-              margin-bottom:50px;
-              justify-content:space-between;
-              flex-wrap:wrap;
+            .contact {
+              display: flex;
+              margin-bottom: 50px;
+              justify-content: space-between;
+              flex-wrap: wrap;
             }
           `}
         </style>
