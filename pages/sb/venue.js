@@ -25,7 +25,6 @@ export default function venue() {
           Venue
         </h1>
         <div className="textV">
-          <h1>Venue Information (Bangalore, Bangaluru)</h1>
           <br />
           <br />
           <div className="contact">
@@ -37,9 +36,11 @@ export default function venue() {
               <h2>Address</h2>
               <br />
               <p>
-                Address: Department of Computer Science and Engineering,
-                University Visvesvaraya College of Engineering, Bangalore
-                University, Bengaluru - 560 001.
+                Department of Computer Science and Engineering,
+                <br />
+                University Visvesvaraya College of Engineering,
+                <br /> Bangalore University,KR circle,
+                <br /> Bengaluru - 560 001.
               </p>
             </div>
           </div>

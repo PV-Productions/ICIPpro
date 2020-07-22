@@ -12,7 +12,30 @@ export default function venue() {
         className="wrapperVEN"
         style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
       >
-        <embed src="https://docdro.id/ZcbVvKd" width="100%" height="1000px" /> 
+        <h1
+          className="headerCALL"
+          style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
+        >
+          Conference program schedule: To Be Updated
+        </h1>
+        <style jsx>
+          {`
+            .wrapperVEN {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              height: 100vh;
+            }
+            .headerCALL {
+              width: 100%;
+              background-color: lightgray;
+              color: white;
+              box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
+              text-align: center;
+            }
+          `}
+        </style>
       </div>
     </SBLayout>
   );

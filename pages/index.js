@@ -59,14 +59,14 @@ export default function Home() {
           </div>
         </Layout>
         <Layout>
-          <Logos />
           <div
             style={{
               width: wWidth > 560 ? "80vw" : "100vw",
               float: "right",
+              marginTop: "10px",
             }}
           >
-            <h3
+            <h1
               style={{
                 textAlign: "center",
                 backgroundColor: "lightgrey",
@@ -77,8 +77,9 @@ export default function Home() {
               }}
             >
               Tracks to be updated.
-            </h3>
+            </h1>
           </div>
+          <Logos />
           <Slider />
         </Layout>
 

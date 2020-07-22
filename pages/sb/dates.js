@@ -70,26 +70,18 @@ export default function venue() {
               text-align: center;
               background-color: lightgray;
               color: white;
-              font-family: "Montserrat", sans-serif;
+
               box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);
             }
             p {
-              font-weight: bold;
               width: 95%;
               margin: 30px;
             }
-            table {
-              border-collapse: collapse;
-              width: 100%;
-            }
-
+            table,
             th,
             td {
-              text-align: left;
-              padding: 8px;
-            }
-            tr:nth-child(even) {
-              background-color: #f2f2f2;
+              border: 1px solid black;
+              padding: 3px;
             }
           `}
         </style>

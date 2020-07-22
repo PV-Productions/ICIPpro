@@ -12,16 +12,23 @@ export default function Sidebar() {
           <a>Conference program schedule</a>
         </Link>
         <Link href="/sb/tutorial">
-        <a>Tutorial Program</a></Link>
-        <a href="#clients">Keynote Speakers</a>
-        <a href="#contact">Accepted Papers</a>
+          <a>Tutorial Program</a>
+        </Link>
+        <Link href="/sb/speakers">
+          <a>Keynote Speakers</a>
+        </Link>
+        <Link href="/sb/papers">
+          <a>Accepted Papers</a>
+        </Link>
         <Link href="/sb/pguidelines">
-        <a >Presentation Guidelines</a></Link>
+          <a>Presentation Guidelines</a>
+        </Link>
         <Link href="/sb/cultural">
           <a>Cultural program</a>
         </Link>
         <Link href="/sb/CRC">
-        <a >CRC instructions</a></Link>
+          <a>CRC instructions</a>
+        </Link>
         <Link href="/sb/registration">
           <a>Registration</a>
         </Link>

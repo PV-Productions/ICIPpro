@@ -116,7 +116,7 @@ export default function venue() {
             </table>
           </div>
         </div>
-        <h3 style={{ margin: "70px" }}>
+        <h3 style={{ margin: "70px", fontWeight: "200" }}>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeLiarqHW8whLpm7qM_V6ObnxN7PlYrJ0pK3h3mtQmS6-G--w/viewform"
             target="_blank"
@@ -140,26 +140,19 @@ export default function venue() {
               text-align: center;
               background-color: lightgray;
               color: white;
-              font-family: "Montserrat", sans-serif;
+
               box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);
             }
             p {
-              font-weight: bold;
               width: 95%;
               margin: 30px;
+              text-indent: 35px;
             }
-            table {
-              border-collapse: collapse;
-              width: 100%;
-            }
-
+            table,
             th,
             td {
-              text-align: left;
-              padding: 8px;
-            }
-            tr:nth-child(even) {
-              background-color: #f2f2f2;
+              border: 1px solid black;
+              padding: 3px;
             }
           `}
         </style>

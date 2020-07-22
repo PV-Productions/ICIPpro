@@ -2,6 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+import Link from "next/link";
 
 export default function Landing() {
   const [wWidth, setwWidth] = React.useState(0);
@@ -23,7 +24,7 @@ export default function Landing() {
             </Zoom>{" "}
             <Zoom duration={800} delay={500}>
               {" "}
-              On
+              on
             </Zoom>
             <Zoom duration={800} delay={900}>
               {" "}
@@ -36,7 +37,9 @@ export default function Landing() {
         </div>
         <div className="buttons">
           <button className="but1">Explore</button>
-          <button className="but2">Register</button>
+          <Link href="/sb/registration">
+            <button className="but2">Register</button>
+          </Link>
         </div>
         <div className="downicon">
           <Fade top duration={1700} forever={true}>
@@ -88,16 +91,17 @@ export default function Landing() {
             z-index: 999;
           }
           .heading h1 {
-           
             text-shadow: ${wWidth > 560
-              ? "1px 1px 10px black"
+              ? "3px 3px 10px black"
               : "5px 5px 20px black"};
-            font-size: ${wWidth > 560 ? "60px" : "37px"};
+            font-size: ${wWidth > 560 ? "80px" : "37px"};
             color: white;
             font-weight: ${wWidth > 560 ? "500" : "900"};
           }
           .heading h3 {
             font-size: ${wWidth > 560 ? "25px" : "15px"};
+            font-weight: 200;
+            margin: 10px;
           }
           .buttons {
             position: absolute;
