@@ -53,7 +53,7 @@ export default function Landing() {
         ></div>
         {wWidth > 560 ? (
           <video autoPlay muted loop>
-            <source type="video/mp4" src="/main.mp4" />
+            <source type="video/mp4" src="/bgvids.mp4" />
           </video>
         ) : (
           <div style={{ position: "absolute", height: "100vh" }}>
@@ -73,14 +73,14 @@ export default function Landing() {
             justify-content: center;
             flex-wrap: wrap;
             height: 100vh;
-            background-attatchment:fixed;
+            background-attatchment: fixed;
           }
           .wrapper {
             position: absolute;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-attatchment:fixed;
+            background-attatchment: fixed;
           }
           .heading {
             position: absolute;
@@ -91,7 +91,6 @@ export default function Landing() {
             text-align: center;
             color: white;
             z-index: 999;
-            
           }
           .heading h1 {
             text-shadow: ${wWidth > 560
