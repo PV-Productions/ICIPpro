@@ -291,12 +291,14 @@ export default function venue() {
             color: grey;
           }
           .team {
-            
+            text-align:justify;
+            text-justify:inter-word;
             display: flex;
             align-items: center;
             justify-content: space-around;
             flex-wrap: wrap;
             width: ${wWidth > 560 ? "60vw" : "100vw"};
+            padding:40px;
           }
           .team img {
             width:${wWidth > 560 ? "33%" : "50%"};

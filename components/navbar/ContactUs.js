@@ -13,16 +13,17 @@ export default function ContactUs() {
       <div className="address">
         <h1>Contact</h1>
         <p>
-          Contact: Info line - +080-22961890
+          Telephone number - +080-22961890
           <br />
-          Email - info@campusuvce.in
+          Email - contacticinpro2021@gmail.com
         </p>
       </div>
       <div className="contact">
         <h1>Address</h1>
         <p>
-          Address: Department of Computer Science and Engineering, University
-          Visvesvaraya College of Engineering, Bangalore University, Bengaluru -
+          Department of Computer Science and Engineering,<br/> University
+          Visvesvaraya College of Engineering,<br/> Bangalore University, <br/> 
+          KR Circle Dr.B R Ambedkar Veedhi<br/> Bengaluru -
           560 001.
         </p>
       </div>

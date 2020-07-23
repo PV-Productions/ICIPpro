@@ -29,8 +29,8 @@ export default function venue() {
           <br />
           <div className="contact">
             <img
-              src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
-              style={{ width: "40%" }}
+              src="https://uvce.ac.in/img/UVCE/gallery/UVCE_Gallery18.jpg"
+              style={{ width: "40%", borderRadius:10 }}
             />
             <div style={{ width: wWidth > 560 ? "50%" : "100vw" }}>
               <h2>Address</h2>

@@ -1,7 +1,7 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
 import Gallery from "react-grid-gallery";
-
+import logo1 from "../../public/logo1.png"
 export default function venue() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -118,6 +118,12 @@ export default function venue() {
     {
       src: "https://www.icipbangalore.org/icinpro18photos/6.jpg",
       thumbnail: "https://www.icipbangalore.org/icinpro18photos/6.jpg",
+      thumbnailWidth: 640,
+      thumbnailHeight: 414,
+    },
+    {
+      src: logo1,
+      thumbnail: logo1,
       thumbnailWidth: 640,
       thumbnailHeight: 414,
     },

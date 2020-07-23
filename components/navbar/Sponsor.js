@@ -19,7 +19,7 @@ export default function Sponsor() {
       >
         Sponsors
       </h1>
-      <div className="one" style={{ width: wWidth > 560 ? "40%" : "80%" }}>
+      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
           height="180"
@@ -30,18 +30,18 @@ export default function Sponsor() {
         </h3>
       </div>
 
-      <div className="one" style={{ width: wWidth > 560 ? "40%" : "80%" }}>
+      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
-          height="180"
+          height="200"
           src="https://www.icipbangalore.org/images/ieee_blr_section.png"
         ></img>
         <h3>IEEE Bangalore Section</h3>
       </div>
-      <div className="one" style={{ width: wWidth > 560 ? "40%" : "80%" }}>
+      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
-          height="180"
+          height="200"
           src="/logo3Artboard 1PNG.png"
         ></img>
         <h3>
@@ -52,15 +52,26 @@ export default function Sponsor() {
           Bangalore University, Bangalore - 560 001.
         </h3>
       </div>
+      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
+        <img
+          width={wWidth > 560 ? "300" : "180"}
+          height="200"
+          src="https://securelink.net/wp-content/uploads/2019/02/Juniper-Networks.png"
+        ></img>
+        <h3>
+          Juniper Networks <br/> Networking and Cyber Security solutions<br/>California, USA
+        </h3>
+      </div>
 
       <style jsx>
         {`
           .wrapperS {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             flex-wrap: wrap;
             margin-top: 12vh;
+          
           }
           .headerS {
             width: 80vw;
@@ -75,6 +86,8 @@ export default function Sponsor() {
             // border:1px solid rgba(240,240,240,0.7);
             // box-shadow:2px 2px 10px 5px rgba(240,240,240,0.7);
             padding: 50px;
+           
+           text-align:center; 
           }
           .one h3 {
             width: 100%;
