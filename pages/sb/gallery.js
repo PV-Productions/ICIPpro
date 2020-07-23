@@ -1,7 +1,7 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
 import Gallery from "react-grid-gallery";
-import logo1 from "../../public/logo1.png"
+import logo1 from "../../public/1.png"
 export default function venue() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {

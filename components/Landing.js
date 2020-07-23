@@ -73,12 +73,14 @@ export default function Landing() {
             justify-content: center;
             flex-wrap: wrap;
             height: 100vh;
+            background-attatchment:fixed;
           }
           .wrapper {
             position: absolute;
             display: flex;
             align-items: center;
             justify-content: center;
+            background-attatchment:fixed;
           }
           .heading {
             position: absolute;
@@ -89,6 +91,7 @@ export default function Landing() {
             text-align: center;
             color: white;
             z-index: 999;
+            
           }
           .heading h1 {
             text-shadow: ${wWidth > 560
