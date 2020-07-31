@@ -16,6 +16,9 @@ import logo12 from "../../public/12.png";
 import logo13 from "../../public/13.png";
 import logo14 from "../../public/14.png";
 import logo15 from "../../public/15.png";
+import logo16 from "../../public/16.png";
+import logo17 from "../../public/17.png";
+import logo18 from "../../public/18.png";
 export default function venue() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -118,20 +121,20 @@ export default function venue() {
       thumbnailHeight: 414,
     },
     {
-      src: "https://www.icipbangalore.org/icinpro18photos/4.jpg",
-      thumbnail: "https://www.icipbangalore.org/icinpro18photos/4.jpg",
+      src: logo16,
+      thumbnail: logo16,
       thumbnailWidth: 640,
       thumbnailHeight: 414,
     },
     {
-      src: "https://www.icipbangalore.org/icinpro18photos/5.jpg",
-      thumbnail: "https://www.icipbangalore.org/icinpro18photos/5.jpg",
+      src: logo17,
+      thumbnail: logo17,
       thumbnailWidth: 640,
       thumbnailHeight: 414,
     },
     {
-      src: "https://www.icipbangalore.org/icinpro18photos/6.jpg",
-      thumbnail: "https://www.icipbangalore.org/icinpro18photos/6.jpg",
+      src: logo18,
+      thumbnail: logo18,
       thumbnailWidth: 640,
       thumbnailHeight: 414,
     },

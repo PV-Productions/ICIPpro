@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../public/logo PNG.png";
 
 export default function Sponsor() {
   const [wWidth, setwWidth] = React.useState(0);
@@ -34,7 +35,7 @@ export default function Sponsor() {
         <img
           width={wWidth > 560 ? "300" : "180"}
           height="200"
-          src="https://www.icipbangalore.org/images/ieee_blr_section.png"
+          src="/logo PNG.png"
         ></img>
         <h3>IEEE Bangalore Section</h3>
       </div>
@@ -59,7 +60,9 @@ export default function Sponsor() {
           src="https://securelink.net/wp-content/uploads/2019/02/Juniper-Networks.png"
         ></img>
         <h3>
-          Juniper Networks <br/> Networking and Cyber Security solutions<br/>California, USA
+          Juniper Networks <br /> Networking and Cyber Security solutions
+          <br />
+          California, USA
         </h3>
       </div>
 
@@ -71,7 +74,6 @@ export default function Sponsor() {
             align-items: center;
             flex-wrap: wrap;
             margin-top: 12vh;
-          
           }
           .headerS {
             width: 80vw;
@@ -86,8 +88,8 @@ export default function Sponsor() {
             // border:1px solid rgba(240,240,240,0.7);
             // box-shadow:2px 2px 10px 5px rgba(240,240,240,0.7);
             padding: 50px;
-           
-           text-align:center; 
+
+            text-align: center;
           }
           .one h3 {
             width: 100%;

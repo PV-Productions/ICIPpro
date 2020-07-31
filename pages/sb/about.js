@@ -48,7 +48,7 @@ export default function venue() {
 
         <div className="pics">
           <div className="team">
-            <img src="https://www.icipbangalore.org/images/rlk1.jpg" />
+            <img src="https://vedah.com/wp-content/uploads/2019/09/R-L-Kashyap.jpeg" />
             <p>
               <b> Dr. R L Kashyap</b> is a Professor Emeritus at Purdue
               University in the Department of Electrical and Computer
@@ -71,7 +71,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://www.icipbangalore.org/images/Agrawal_Dharma.jpg" />
+            <img src="https://webcentral.uc.edu/eprof/media/repository/0101AgrawalDharma9571.jpg" />
             <p>
               <b>Dr. Dharma P Aggarwal</b> is serving as the OBR Distinguished
               Professor of Computer Science in the Department of Computer
@@ -98,7 +98,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://www.icipbangalore.org/images/vidyasagar.jpg" />
+            <img src="https://profiles.utdallas.edu/storage/media/1009/conversions/Vidyasagar_1-medium.jpg" />
             <p>
               <b>Dr. Mathukumalli Vidyasagar</b> is Cecil and Ida Green Chair in
               Systems Biology Science, University of Texas, Dallas. He received
@@ -125,7 +125,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://www.icipbangalore.org/images/lmp.jpg" />
+            <img src="https://www.nias.res.in/sites/default/files/adjunct/Patnaik.jpg" />
             <p>
               <b> Dr. L M Patnaik </b>is Honorary Professor, Indian Institute of
               Science, Bangalore, India. He was Vice Chancellor, Defense
@@ -152,7 +152,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://www.icipbangalore.org/images/vkr.jpg" />
+            <img src="https://i2.wp.com/bangaloreuniversity.ac.in/wp-content/uploads/2016/10/Dr.-Venugopal-K.R.jpg?fit=413%2C531&ssl=1" />
             <p>
               <b>Dr. Venugopal K R </b> is currently the Vice Chancellor,
               Bangalore University, Bangalore. He has served as Principal,
@@ -181,7 +181,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://www.icipbangalore.org/images/iyengar.png" />
+            <img src="https://discoverylab.cs.fiu.edu/wp-content/uploads/sites/13/2016/10/d884cb8011746179b4c9c6f556f35829.jpg" />
             <p>
               <b>Dr. S S Iyengar</b> is currently the Director and Ryder
               Professor Florida International University, USA. He was Roy Paul
@@ -205,7 +205,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://www.icipbangalore.org/images/palaniswamy.jpg" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvQkIecCEiLqsUd_26fRxPKNUTRaqztY_xew&usqp=CAU" />
             <p>
               <b>Dr. Palaniswamy </b> received his M.E from the Indian Institute
               of Science, India, M.Eng.Sc from the University of Melbourne and
@@ -233,7 +233,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://www.icipbangalore.org/images/rajkumar5.png" />
+            <img src="https://ww1.prweb.com/prfiles/2012/12/21/10267154/buyya.jpg" />
             <p>
               <b> Rajkumar Buyya </b>Dr. Rajkumar Buyya is a Fellow of IEEE,
               Professor of Computer Science and Software Engineering and

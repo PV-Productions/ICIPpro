@@ -1,7 +1,7 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
 import Navbar from "../../components/Navbar";
-import Head from "next/head"
+import Head from "next/head";
 export default function guidelines() {
   const [wWidth, setwWidth] = React.useState(0);
   React.useEffect(() => {
@@ -10,13 +10,42 @@ export default function guidelines() {
   return (
     <>
       <SBLayout>
-      <Head>
-      <link
+        <Head>
+          <link
             href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
             rel="stylesheet"
           ></link>
-      </Head>
+        </Head>
         <div
+          className="wrapperVEN"
+          style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+        >
+          <h1
+            className="headerCALL"
+            style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
+          >
+            Author Guidelines to Be Updated
+          </h1>
+          <style jsx>
+            {`
+              .wrapperVEN {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                height: 100vh;
+              }
+              .headerCALL {
+                width: 100%;
+                background-color: lightgray;
+                color: white;
+                box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
+                text-align: center;
+              }
+            `}
+          </style>
+        </div>
+        {/* <div
           className="wrapperGUI"
           style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
         >
@@ -178,7 +207,7 @@ export default function guidelines() {
               }
             `}
           </style>
-        </div>
+        </div> */}
       </SBLayout>
     </>
   );
