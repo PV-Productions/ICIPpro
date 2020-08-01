@@ -1,6 +1,7 @@
 import React from "react";
 import SBLayout from "../../components/SBLayout";
 import Head from "next/head";
+import logo from "../../public/download.jpg";
 
 export default function venue() {
   const [wWidth, setwWidth] = React.useState(0);
@@ -48,7 +49,7 @@ export default function venue() {
 
         <div className="pics">
           <div className="team">
-            <img src="https://vedah.com/wp-content/uploads/2019/09/R-L-Kashyap.jpeg" />
+            <img src={logo} />
             <p>
               <b> Dr. R L Kashyap</b> is a Professor Emeritus at Purdue
               University in the Department of Electrical and Computer
