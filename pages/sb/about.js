@@ -99,7 +99,7 @@ export default function venue() {
               </a>
             </p>
             <hr />
-            <img src="https://profiles.utdallas.edu/storage/media/1009/conversions/Vidyasagar_1-medium.jpg" />
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Mathukumallividyasagar.jpg" />
             <p>
               <b>Dr. Mathukumalli Vidyasagar</b> is Cecil and Ida Green Chair in
               Systems Biology Science, University of Texas, Dallas. He received
