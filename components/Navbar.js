@@ -70,7 +70,7 @@ export default function Navbar() {
             padding-bottom: 10px;
             box-shadow: 2px 2px 20px 5px lightgray;
             height: 12vh;
-            border-bottom: 2px solid rgb(178, 34, 34);
+            border-bottom: 2px solid firebrick;
           }
 
           .main-nav {

@@ -39,31 +39,48 @@ export default function Home() {
               width: wWidth > 560 ? "80vw" : "100vw",
               float: "right",
             }}
-          >
-           
-          </div>
+          ></div>
         </Layout>
         <Layout>
-         
           <div
             style={{
               width: wWidth > 560 ? "80vw" : "100vw",
               float: "right",
               boxShadow: "2px 2px 10px 5px lightgrey",
-              padding:40,
-              textAlign:"justify",
-              textIndent:"35px",
-              fontSize:20,
-              backgroundColor:"firebrick",
-              color:"white"
+              padding: 40,
+              textAlign: "justify",
+              textIndent: "35px",
+              fontSize: 20,
+              background:
+                "linear-gradient(to bottom left, lightblue, lightgreen)",
+              color: "#800000",
             }}
-          > 
-            <p>The Sixteenth International Conference on Information Processing (ICInPro 2021) will be held in Bangalore, in the month of August 2021. ICInPro 2021 is the Sixteenth Conference in its series aimed at stimulating technical exchange among Scientists and Engineers and capture highly innovative and state of the art Research Papers in the emerging field of Information Processing.</p>
-<br/><br/>
-<p>The Sixteenth International Conference on Information Processing (ICInPro 2021) invites high-quality recent research results in the areas of INTERNET OF THINGS, DATA SCIENCE, SECURITY FOR INTERNET OF THINGS, INFORMATION PROCESSING AND PATTERN RECOGNITION, COMPUTER COMMUNICATION NETWORKS, HARDWARE AND OPTIMIZATION, SOFT COMPUTING, DISTRIBUTED SYSTEMS, SOFTWARE ENGINEERING, BIO COMPUTING, DATA MINING, ARTIFICIAL INTELLIGENCE AND IMAGE PROCESSING</p>
-
+          >
+            <p>
+              The Sixteenth International Conference on Information Processing
+              (ICInPro 2021) will be held in Bangalore, in the month of August
+              2021. ICInPro 2021 is the Sixteenth Conference in its series aimed
+              at stimulating technical exchange among Scientists and Engineers
+              and capture highly innovative and state of the art Research Papers
+              in the emerging field of Information Processing.
+            </p>
+            <br />
+            <br />
+            <p>
+              The Sixteenth International Conference on Information Processing
+              (ICInPro 2021) invites high-quality recent research results in the
+              areas of
+              <span style={{ textTransform: "lowercase" }}>
+                INTERNET OF THINGS, DATA SCIENCE, SECURITY FOR INTERNET OF
+                THINGS, INFORMATION PROCESSING AND PATTERN RECOGNITION, COMPUTER
+                COMMUNICATION NETWORKS, HARDWARE AND OPTIMIZATION, SOFT
+                COMPUTING, DISTRIBUTED SYSTEMS, SOFTWARE ENGINEERING, BIO
+                COMPUTING, DATA MINING, ARTIFICIAL INTELLIGENCE AND IMAGE
+                PROCESSING
+              </span>
+            </p>
           </div>
-         
+
           <Logos />
           <Slider />
         </Layout>

@@ -63,7 +63,7 @@ export default function Sidebar() {
             z-index: 1000;
             top: 0;
             left: 0;
-            background-color: rgb(178, 34, 34);
+            background: linear-gradient(to bottom right, lightgreen, lightblue);
             overflow-x: hidden;
             padding-top: 20px;
           }
@@ -73,15 +73,11 @@ export default function Sidebar() {
             text-align: center;
             text-decoration: none;
             font-size: 17px;
-            color: white;
+            color: #800000;
             display: block;
           }
           .sidenav a:nth-child(1) {
             padding-top: 0px;
-          }
-
-          .sidenav a:hover {
-            color: lightgrey;
           }
         `}
       </style>
