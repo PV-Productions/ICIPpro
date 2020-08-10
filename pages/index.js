@@ -65,19 +65,16 @@ export default function Home() {
               in the emerging field of Information Processing.
             </p>
             <br />
-            <br />
+
             <p>
               The Sixteenth International Conference on Information Processing
               (ICInPro 2021) invites high-quality recent research results in the
-              areas of
-              <span style={{ textTransform: "lowercase" }}>
-                INTERNET OF THINGS, DATA SCIENCE, SECURITY FOR INTERNET OF
-                THINGS, INFORMATION PROCESSING AND PATTERN RECOGNITION, COMPUTER
-                COMMUNICATION NETWORKS, HARDWARE AND OPTIMIZATION, SOFT
-                COMPUTING, DISTRIBUTED SYSTEMS, SOFTWARE ENGINEERING, BIO
-                COMPUTING, DATA MINING, ARTIFICIAL INTELLIGENCE AND IMAGE
-                PROCESSING
-              </span>
+              areas of Internet of Things, Data Science, Security for Internet
+              of Things, Information Processing and Pattern Recognition,
+              Computer Communication networks, Hardware and Optimization, Soft
+              Computing, Distributed Systems, Software Engineering, Bio
+              computing, Data mining, Artificial Intelligence and Image
+              Processing.
             </p>
           </div>
 
