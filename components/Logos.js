@@ -11,10 +11,9 @@ export default function Logos() {
       style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
     >
       <div className="wrapper">
-        <img src="/logo3Artboard 1PNG.png" />
-        <div className="card" style={{ background: "pink" }}>
-          <h2>IEEE</h2>
-          <small>IEEE Bangalore Section</small>
+        <div className="card" style={{ background: "lightblue" }}>
+          <h2>UVCE</h2>
+          <small>University Visvesvaraya College of Engineering.</small>
         </div>
         <img src="/logo2Artboard 1PNG.png" />
       </div>
@@ -27,15 +26,12 @@ export default function Logos() {
           width: "80vw",
         }}
       >
-        <div className="card" style={{ background: "lightblue" }}>
-          <h2>UVCE</h2>
-          <small>University Visvesvaraya College of Engineering.</small>
-        </div>
-        <img src="/logo PNG.png" />
+        <img src="/logo3Artboard 1PNG.png" />
         <div className="card" style={{ background: "lightblue" }}>
           <h2>CPCT</h2>
-          <small>Computing Professionals Charitable Trust (CPCT),
-Bangalore.</small>
+          <small>
+            Computing Professionals Charitable Trust (CPCT), Bangalore.
+          </small>
         </div>
       </div>
       <style jsx>{`
@@ -52,7 +48,7 @@ Bangalore.</small>
           justify-content: space-around;
           flex-wrap: wrap;
           height: ${wWidth > 560 ? "40vh" : "20vh"};
-          margin-bottom:50px;
+          margin-bottom: 50px;
         }
         img {
           width: ${wWidth > 560 ? "22%" : "40%"};
@@ -65,12 +61,11 @@ Bangalore.</small>
           padding: ${wWidth > 560 ? "75px" : "30px"};
           text-align: center;
           font-size: 20px;
-          width:25%;
-          height:auto;
-       
+          width: 25%;
+          height: auto;
+
           display: ${wWidth > 560 ? "block" : "none"};
         }
-      
       `}</style>
     </div>
   );

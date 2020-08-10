@@ -11,12 +11,7 @@ export default function Committee() {
       className="wrapperVEN"
       style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
     >
-      <h1
-        className="headerCALL"
-        style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
-      >
-        Committees: To Be Updated
-      </h1>
+      <embed src="/ICInPro Committee.pdf" className="pdf" />
       <style jsx>
         {`
           .wrapperVEN {
@@ -25,6 +20,7 @@ export default function Committee() {
             align-items: center;
             flex-wrap: wrap;
             height: 100vh;
+            overflow-y: hidden;
           }
           .headerCALL {
             width: 100%;
@@ -32,6 +28,11 @@ export default function Committee() {
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
             text-align: center;
+          }
+          .pdf {
+            margin-top: 80px;
+            width: 100%;
+            height: 100vh;
           }
         `}
       </style>

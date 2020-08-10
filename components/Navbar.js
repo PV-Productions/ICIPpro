@@ -20,7 +20,7 @@ export default function Navbar() {
       }}
     >
       <nav className="navbar">
-        <img src="/logo2.png" alt="logo" className="logo" />
+        <img src="/logo123.png" alt="logo" className="logo" />
         <ul className="main-nav" id="js-menu">
           <li>
             <Link href="/">
