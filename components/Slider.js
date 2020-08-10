@@ -3,22 +3,32 @@ import Slider from "react-animated-slider";
 
 const slides = [
   {
-    title: "First item",
+    title: "Data Science",
     description: "Lorem ipsum",
     image: "https://i.imgur.com/ZXBtVw7.jpg",
   },
   {
-    title: "Second item",
+    title: "Computer Network and Security",
     description: "Lorem ipsum",
     image: "https://i.imgur.com/DCdBXcq.jpg",
   },
   {
-    title: "third item",
+    title: "Computing",
     description: "Lorem ipsum",
     image: "https://i.imgur.com/DvmN8Hx.jpg",
   },
   {
-    title: "Second item",
+    title: "Internet of Things",
+    description: "Lorem ipsum",
+    image: "https://i.imgur.com/ZXBtVw7.jpg",
+  },
+  {
+    title: "Intelligence Track",
+    description: "Lorem ipsum",
+    image: "https://i.imgur.com/ZXBtVw7.jpg",
+  },
+  {
+    title: "Women in Research",
     description: "Lorem ipsum",
     image: "https://i.imgur.com/ZXBtVw7.jpg",
   },
@@ -49,11 +59,13 @@ export default function Sliders() {
             key={index}
             className="texts"
             style={{
-              background: `url(${slide.image}) no-repeat center center`,
+              background:
+                "linear-gradient(to bottom right, lightgreen, lightblue)",
             }}
           >
-            <h2>{slide.title}</h2>
-            <div>{slide.description}</div>
+            <h2 style={{ fontSize: "40px", color: "firebrick" }}>
+              {slide.title}
+            </h2>
           </div>
         ))}
       </Slider>

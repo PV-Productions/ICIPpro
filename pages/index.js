@@ -79,6 +79,18 @@ export default function Home() {
           </div>
 
           <Logos />
+          <h1
+            style={{
+              width: "80%",
+              float: "right",
+              textAlign: "center",
+              color: "firebrick",
+              fontSize: 40,
+              backgroundColor: "lightgray",
+            }}
+          >
+            Tracks
+          </h1>
           <Slider />
         </Layout>
 
