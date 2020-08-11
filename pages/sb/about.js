@@ -67,8 +67,11 @@ export default function venue() {
               lead of Sri Aurobindo and Sri T. V. Kapali Sastry, Prof. Kashyap
               is writing a commentary to all the Veda mantras. More information
               is available in{" "}
-              <a href="https://engineering.purdue.edu/vita" target="_blank">
-                http://engineering.purdue.edu/ECE/People
+              <a
+                href="https://en.wikipedia.org/wiki/Rangasami_L._Kashyap"
+                target="_blank"
+              >
+                https://en.wikipedia.org/wiki/Rangasami_L._Kashyap
               </a>
             </p>
             <hr />
@@ -94,8 +97,11 @@ export default function venue() {
               Wireless Cellular Networks. He has graduated 56 Ph.Ds and 39 M.S
               students. He has 200 papers in Scholarly Journals. More
               information is available in{" "}
-              <a href="https://eecs.ceas.uc.edu/~dpa/index.htm" target="_blank">
-                http://www.cs.uc.edu/~dpa/index.htm
+              <a
+                href="https://www.ceas3.uc.edu/profiles/agrawadp"
+                target="_blank"
+              >
+                https://www.ceas3.uc.edu/profiles/agrawadp
               </a>
             </p>
             <hr />
@@ -145,11 +151,8 @@ export default function venue() {
               mobile computing, CAD for VLSI circuits, soft computing, and
               computational neuroscience. He has graduated 20 Ph.D students.
               More information is available in
-              <a
-                href="http://www.cedt.iisc.ernet.in/people/lmp/lmp.html"
-                target="_blank"
-              >
-                http://www.cedt.iisc.ernet.in/people/lmp/lmp.html
+              <a href="http://lmpatnaik.in/" target="_blank">
+                http://lmpatnaik.in/
               </a>
             </p>
             <hr />
@@ -226,11 +229,11 @@ export default function venue() {
               Discovery and Linkage grants with a successful industry outreach
               programme. More information is available in
               <a
-                href="http://www.ee.unimelb.edu.au/staff/swami/index.html"
+                href="https://people.eng.unimelb.edu.au/palani/"
                 target="_blank"
               >
                 {" "}
-                http://www.ee.unimelb.edu.au/staff/swami/index.html
+                https://people.eng.unimelb.edu.au/palani/
               </a>
             </p>
             <hr />
