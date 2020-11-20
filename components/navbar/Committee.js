@@ -11,7 +11,10 @@ export default function Committee() {
       className="wrapperVEN"
       style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
     >
-      <embed src="/ICInPro Committee.pdf" className="pdf" />
+      <embed
+        src="/ICInPro Committee New 1.3-pages-deleted.pdf"
+        className="pdf"
+      />
       <style jsx>
         {`
           .wrapperVEN {
