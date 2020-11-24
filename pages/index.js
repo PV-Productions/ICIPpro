@@ -81,7 +81,7 @@ export default function Home() {
           <Logos />
           <h1
             style={{
-              width: "80%",
+              width: wWidth > 560 ? "80vw" : "100vw",
               float: "right",
               textAlign: "center",
               color: "firebrick",

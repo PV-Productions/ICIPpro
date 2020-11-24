@@ -33,6 +33,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link href="/sb/about">
+              <a className="nav-links">About Us</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/nav/contact">
               <a className="nav-links">
                 {wWidth > 560 ? "Contact Us" : "Contact"}

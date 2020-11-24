@@ -43,20 +43,26 @@ export default function Landing() {
         </div>
         <div className="downicon">
           <Fade top duration={1700} forever={true}>
-            <i className="fa fa-angle-down" style={{ fontSize: "40px" }}></i>
+            <i className="fa fa-angle-down" style={{ fontSize: "30px" }}></i>
           </Fade>
         </div>
 
         <div
           className="overlay"
-          style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+          style={{
+            width: wWidth > 560 ? "80vw" : "100vw",
+            height: "60vh",
+            float: "right",
+          }}
         ></div>
         {wWidth > 560 ? (
-          <video autoPlay muted loop>
+          <video autoPlay muted loop style={{ height: "60vh" }}>
             <source type="video/mp4" src="/bgvids.mp4" />
           </video>
         ) : (
-          <div style={{ position: "absolute", height: "100vh" }}>
+          <div
+            style={{ position: "absolute", height: "90vh", marginTop: "10vh" }}
+          >
             <img
               src="https://images.jdmagicbox.com/comp/bangalore/26/080p5000426/catalogue/uvce-college-kr-circle-bangalore-colleges-f8ctiyoz49.jpg"
               style={{ height: "100vh" }}
@@ -72,8 +78,9 @@ export default function Landing() {
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
-            height: 100vh;
+            height: 60vh;
             background-attatchment: fixed;
+            margin-top: 10vh;
           }
           .wrapper {
             position: absolute;
@@ -96,12 +103,12 @@ export default function Landing() {
             text-shadow: ${wWidth > 560
               ? "3px 3px 10px black"
               : "5px 5px 20px black"};
-            font-size: ${wWidth > 560 ? "80px" : "37px"};
+            font-size: ${wWidth > 560 ? "65px" : "37px"};
             color: white;
             font-weight: ${wWidth > 560 ? "500" : "900"};
           }
           .heading h3 {
-            font-size: ${wWidth > 560 ? "25px" : "15px"};
+            font-size: ${wWidth > 560 ? "24px" : "15px"};
             font-weight: 200;
             margin: 10px;
           }
@@ -120,7 +127,7 @@ export default function Landing() {
             transition: all 0.3s ease-in-out;
             background-color: white;
             border: 3px solid white;
-            width: 250px;
+            width: 200px;
             border-radius: 30px;
             padding: 10px;
             font-weight: 600;
@@ -139,7 +146,7 @@ export default function Landing() {
             color: ${wWidth > 560 ? "white" : "black"};
             transition: all 0.3s ease-in-out;
             border: 3px solid white;
-            width: 250px;
+            width: 200px;
             border-radius: 30px;
             padding: 10px;
             font-weight: 600;

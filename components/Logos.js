@@ -40,7 +40,7 @@ export default function Logos() {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-          padding-top: 80px;
+          padding-top: 40px;
         }
         .wrapper {
           display: flex;
@@ -54,7 +54,7 @@ export default function Logos() {
           width: ${wWidth > 560 ? "22%" : "40%"};
         }
         img:nth-child(2) {
-          width: ${wWidth > 560 ? "30%" : "70%"};
+          width: ${wWidth > 560 ? "30%" : "50%"};
         }
         .card {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
