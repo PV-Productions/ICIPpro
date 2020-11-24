@@ -9,13 +9,13 @@ export default function Sponsor() {
   return (
     <div
       className="wrapperS"
-      style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+      style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
     >
       <h1
         className="headerS"
         style={{
           fontSize: wWidth > 560 ? "72px" : "48px",
-          width: wWidth > 560 ? "80vw" : "100vw",
+          width: wWidth > 560 ? "100vw" : "100vw",
         }}
       >
         Sponsors

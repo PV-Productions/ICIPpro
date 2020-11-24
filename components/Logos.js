@@ -8,7 +8,7 @@ export default function Logos() {
   return (
     <div
       className="logos"
-      style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+      style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
     >
       <div className="wrapper">
         <div className="card" style={{ background: "lightblue" }}>
@@ -47,7 +47,7 @@ export default function Logos() {
           align-items: center;
           justify-content: space-around;
           flex-wrap: wrap;
-          height: ${wWidth > 560 ? "40vh" : "20vh"};
+          height: ${wWidth > 560 ? "50vh" : "20vh"};
           margin-bottom: 50px;
         }
         img {

@@ -8,31 +8,32 @@ import Sponsor from "../../components/navbar/Sponsor";
 export default function Sponsors() {
   return (
     <>
-     <Navbar />
-    <div className="container">
-      <Head>
-        <title>ICInPro-Sponsors</title>
-        <link rel="icon" href="/logo2.png" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
-      </Head>
-       
-        <Sidebar />
-      <Layout>
-        <Sponsor/>
-      </Layout>
-     
+      <Navbar />
+      <div className="container">
+        <Head>
+          <title>ICInPro-Sponsors</title>
+          <link rel="icon" href="/logo2.png" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+          ></link>
+        </Head>
 
-      <style jsx>{`
-        .container {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-          width: 100%;
-          height: 100vh;
-        }
-      `}</style>
-    </div>
-      </>
+        <Layout>
+          <Sponsor />
+        </Layout>
+
+        <style jsx>{`
+          .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100vh;
+          }
+        `}</style>
+      </div>
+    </>
   );
 }

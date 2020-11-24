@@ -20,7 +20,6 @@ export default function pC() {
           ></link>
         </Head>
 
-        <Sidebar />
         <Layout>
           <PC />
         </Layout>

@@ -18,7 +18,7 @@ export default function venue() {
       </Head>
       <div
         className="wrapperVEN"
-        style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+        style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
       >
         <div className="banner">
           <h1
@@ -46,7 +46,7 @@ export default function venue() {
             style={{ width: "40%" }}
           />
         </div> */}
-
+        {/* 
         <div className="pics">
           <div className="team">
             <img src={logo} />
@@ -259,7 +259,7 @@ export default function venue() {
             </p>
             <hr />
           </div>
-        </div>
+        </div> */}
         <style jsx>{`
           .banner {
             display: flex;

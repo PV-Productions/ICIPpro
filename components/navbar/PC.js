@@ -8,7 +8,7 @@ export default function PC() {
   return (
     <div
       className="wrapper"
-      style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+      style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
     >
       <div
         style={{

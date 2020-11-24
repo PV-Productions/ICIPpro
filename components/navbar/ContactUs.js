@@ -8,7 +8,7 @@ export default function ContactUs() {
   return (
     <div
       className="wrapperUS"
-      style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+      style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
     >
       <div className="address">
         <h1>Contact</h1>
@@ -21,17 +21,18 @@ export default function ContactUs() {
       <div className="contact">
         <h1>Address</h1>
         <p>
-          Department of Computer Science and Engineering,<br/> University
-          Visvesvaraya College of Engineering,<br/> Bangalore University, <br/> 
-          KR Circle Dr.B R Ambedkar Veedhi<br/> Bengaluru -
-          560 001.
+          Department of Computer Science and Engineering,
+          <br /> University Visvesvaraya College of Engineering,
+          <br /> Bangalore University, <br />
+          KR Circle Dr.B R Ambedkar Veedhi
+          <br /> Bengaluru - 560 001.
         </p>
       </div>
 
       <div>
         <div
           className="mapouter"
-          style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+          style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
         >
           <div className="gmap_canvas">
             <iframe

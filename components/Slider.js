@@ -41,7 +41,7 @@ export default function Sliders() {
   return (
     <div
       style={{
-        width: wWidth > 560 ? "80vw" : "100vw",
+        width: wWidth > 560 ? "100vw" : "100vw",
         float: "right",
         // paddingTop: "50px",
 

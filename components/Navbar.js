@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div
       style={{
-        width: wWidth > 560 ? "80vw" : "100vw",
+        width: wWidth > 560 ? "100vw" : "100vw",
         float: "right",
         position: "fixed",
         zIndex: 999,
@@ -70,12 +70,13 @@ export default function Navbar() {
         {`
           .navbar {
             font-size: 11.5px;
-            background-color: rgba(250, 250, 250, 0.8);
-            color: black;
+            background-color: #337ab7;
+            color: white;
             padding-bottom: 10px;
-            box-shadow: 2px 2px 20px 5px lightgray;
+            box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
             height: 12vh;
-            border-bottom: 2px solid firebrick;
+            border-bottom: 2px solid green;
+            z-index: 1000;
           }
 
           .main-nav {
@@ -93,7 +94,7 @@ export default function Navbar() {
           .nav-links,
           .logo {
             text-decoration: none;
-            color: black;
+            color: white;
           }
 
           .main-nav li {

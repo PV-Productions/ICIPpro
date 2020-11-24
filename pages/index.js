@@ -18,6 +18,7 @@ export default function Home() {
         <Head>
           <title>ICInPro-2021</title>
           <link rel="icon" href="/logo2.png" />
+
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
             rel="stylesheet"
@@ -28,7 +29,6 @@ export default function Home() {
           ></link>
         </Head>
 
-        <Sidebar />
         <Layout>
           <Landing />
         </Layout>
@@ -36,7 +36,7 @@ export default function Home() {
           <div
             className="sect1"
             style={{
-              width: wWidth > 560 ? "80vw" : "100vw",
+              width: wWidth > 560 ? "100vw" : "100vw",
               float: "right",
             }}
           ></div>
@@ -44,10 +44,12 @@ export default function Home() {
         <Layout>
           <div
             style={{
-              width: wWidth > 560 ? "80vw" : "100vw",
+              width: wWidth > 560 ? "100vw" : "100vw",
               float: "right",
               boxShadow: "2px 2px 10px 5px lightgrey",
-              padding: 40,
+              marginTop: 50,
+              paddingTop: 100,
+              padding: 50,
               textAlign: "justify",
               textIndent: "35px",
               fontSize: 20,
@@ -81,7 +83,7 @@ export default function Home() {
           <Logos />
           <h1
             style={{
-              width: wWidth > 560 ? "80vw" : "100vw",
+              width: wWidth > 560 ? "100vw" : "100vw",
               float: "right",
               textAlign: "center",
               color: "firebrick",
@@ -96,7 +98,7 @@ export default function Home() {
 
         <footer
           style={{
-            width: wWidth > 560 ? "80vw" : "100vw",
+            width: wWidth > 560 ? "100vw" : "100vw",
             float: "right",
             backgroundColor: "rgb(20,20,20)",
             color: "white",

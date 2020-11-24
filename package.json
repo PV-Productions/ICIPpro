@@ -14,6 +14,7 @@
     "next-images": "^1.4.0",
     "react": "16.13.1",
     "react-animated-slider": "^2.0.0",
+    "react-collapsible": "^2.8.1",
     "react-dom": "16.13.1",
     "react-grid-gallery": "^0.5.5",
     "react-particles-js": "^3.2.1",

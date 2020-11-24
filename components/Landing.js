@@ -13,7 +13,7 @@ export default function Landing() {
   return (
     <div
       className="landing"
-      style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+      style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
     >
       <div className="wrapper">
         <div className="heading">
@@ -50,13 +50,13 @@ export default function Landing() {
         <div
           className="overlay"
           style={{
-            width: wWidth > 560 ? "80vw" : "100vw",
-            height: "60vh",
+            width: wWidth > 560 ? "100vw" : "100vw",
+            height: "75vh",
             float: "right",
           }}
         ></div>
         {wWidth > 560 ? (
-          <video autoPlay muted loop style={{ height: "60vh" }}>
+          <video autoPlay muted loop style={{ height: "75vh" }}>
             <source type="video/mp4" src="/bgvids.mp4" />
           </video>
         ) : (
@@ -80,7 +80,7 @@ export default function Landing() {
             flex-wrap: wrap;
             height: 60vh;
             background-attatchment: fixed;
-            margin-top: 10vh;
+            margin-top: 15vh;
           }
           .wrapper {
             position: absolute;
@@ -97,7 +97,7 @@ export default function Landing() {
             flex-wrap: wrap;
             text-align: center;
             color: white;
-            z-index: 999;
+            z-index: 99;
           }
           .heading h1 {
             text-shadow: ${wWidth > 560
@@ -174,7 +174,7 @@ export default function Landing() {
 
           .landing video {
             height: 100vh;
-            width: 80vw;
+            width: 100vw;
 
             object-fit: cover;
           }
