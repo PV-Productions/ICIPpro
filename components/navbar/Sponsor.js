@@ -23,7 +23,7 @@ export default function Sponsor() {
       <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
-          height="180"
+          height="240"
           src="/logo2Artboard 1PNG.png"
         ></img>
         <h3>
@@ -42,7 +42,7 @@ export default function Sponsor() {
       <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
-          height="200"
+          height="240"
           src="/logo3Artboard 1PNG.png"
         ></img>
         <h3>
@@ -78,7 +78,7 @@ export default function Sponsor() {
           .headerS {
             width: 80vw;
             text-align: center;
-            background-color: lightgray;
+            background-color: lightgreen;
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);
             margin-bottom: 40px;

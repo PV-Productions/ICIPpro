@@ -11,7 +11,7 @@ export default function ContactUs() {
       style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
     >
       <div className="address">
-        <h1>Contact</h1>
+        <h1 style={{ color: "red" }}>Contact</h1>
         <p>
           Telephone number - +080-22961890
           <br />
@@ -19,7 +19,7 @@ export default function ContactUs() {
         </p>
       </div>
       <div className="contact">
-        <h1>Address</h1>
+        <h1 style={{ color: "red" }}>Address</h1>
         <p>
           Department of Computer Science and Engineering,
           <br /> University Visvesvaraya College of Engineering,

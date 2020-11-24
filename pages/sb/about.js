@@ -28,24 +28,78 @@ export default function venue() {
             About Us
           </h1>
         </div>
-        {/* <div
+        <div
+          className="wrapper"
+          style={{
+            display: "flex",
+
+            justifyContent: "center",
+            width: wWidth > 560 ? "100vw" : "100vw",
+            padding: 40,
+            flexWrap: "wrap",
+          }}
+        >
+          <h1
+            className="kelage1"
+            style={{
+              color: "red",
+              fontSize: 45,
+              width: "100%",
+              textAlign: "center",
+            }}
+          >
+            ICInPro-2021
+          </h1>
+          <img src="/logo123.png" height="120" width="150" />
+          <p style={{ textAlign: "left", fontSize: 20, color: "grey" }}>
+            The Sixteenth International Conference on Information Processing
+            (ICInPro 2021) will be held in Bangalore, in the month of August
+            2021. ICInPro 2021 is the Sixteenth Conference in its series aimed
+            at stimulating technical exchange among Scientists and Engineers and
+            capture highly innovative and state of the art Research Papers in
+            the emerging field of Information Processing.
+          </p>
+        </div>
+        <div
           className="wrapper"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            width: wWidth > 560 ? "78vw" : "100vw",
-            float: "right",
+            width: wWidth > 560 ? "100vw" : "100vw",
+            padding: 40,
+            flexWrap: "wrap",
           }}
         >
-          <p style={{ textAlign: "center" }}>
-          The Fifteenth International Conference on Information Processing (ICInPro 2019) will be held in Bangalore, in the month of December 2019. ICInPro 2019 is the Fifteenth Conference in its series aimed at stimulating technical exchange among Scientists and Engineers and capture highly innovative and state of the art Research Papers in the emerging field of Information Processing.
-          </p>
+          <h1
+            className="kelage2"
+            style={{
+              color: "red",
+              fontSize: 45,
+              width: "100%",
+              textAlign: "center",
+              paddingBottom: 20,
+            }}
+          >
+            University Visvesvaraya College of Engineering
+          </h1>
           <img
             src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
-            style={{ width: "40%" }}
+            style={{ height: 120, width: 180 }}
           />
-        </div> */}
+          <p style={{ textAlign: "left", fontSize: 20, color: "grey" }}>
+            University Visvesvaraya College of Engineering was established in
+            the year 1917 by Bharat Ratna Sir M Visvesvaraya. It is the Fifth
+            Engineering College to be established in the country. After the
+            formation of Bangalore University in 1964, UVCE became one of the
+            Constitutent Colleges of Bangalore University. This is one of the
+            oldest technical institutions in the country imparting technical
+            education leading to BE, ME, B.Arch, M.Arch, M.Sc.(Engineering) and
+            Ph.D degrees in the various disciplines of Engineering and
+            Architecture. It has completed 92 years of Academic Excellence since
+            its inception.
+          </p>
+        </div>
         {/* 
         <div className="pics">
           <div className="team">
@@ -273,7 +327,7 @@ export default function venue() {
             top: 0;
             margin-top: 12vh;
             width: 100%;
-            background-color: lightgray;
+            background-color: lightgreen;
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
             text-align: center;
@@ -317,6 +371,22 @@ export default function venue() {
           }
           p{
            text-indent:35px
+          }
+          .kelage1:after{
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            margin: 0 auto; /* This will center the border. */
+            width: 15%; /* Change this to whatever width you want. */
+            padding-top: 20px; /* This creates some space between the element and the border. */
+            border-bottom: 5px solid #337ab7; /* This creates the border. Replace black with whatever color you want. */
+          }
+          .kelage2:after{
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            margin: 0 auto; /* This will center the border. */
+            width: 49%; /* Change this to whatever width you want. */
+            padding-top: 20px; /* This creates some space between the element and the border. */
+            border-bottom: 5px solid #337ab7; /* This creates the border. Replace black with whatever color you want. */
           }
         `}</style>
       </div>
