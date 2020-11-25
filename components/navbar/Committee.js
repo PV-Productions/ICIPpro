@@ -316,7 +316,7 @@ export default function Committee() {
           }
           .accor.active > .body {
             padding: 10px 20px;
-            max-height: 1000px;
+            max-height: 2000px;
           }
         `}
       </style>
