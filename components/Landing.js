@@ -40,31 +40,23 @@ export default function Landing() {
             Important <br /> Dates
           </button>
           <div className="dropdown-content">
-            <div style={{ overflowX: "auto" }}>
+            <div style={{ overflowX: "auto", width: "320px" }}>
               <table>
                 <tr>
-                  <td>To Be Filled</td>
-                  <td>To Be Filled</td>
+                  <td>Paper Submission Deadline : </td>
+                  <td>31 Jan, 2021</td>
                 </tr>
                 <tr>
-                  <td>To Be Filled</td>
-                  <td>To Be Filled</td>
+                  <td>Acceptance Notification : </td>
+                  <td>31 March, 2021</td>
                 </tr>
                 <tr>
-                  <td>To Be Filled</td>
-                  <td>To Be Filled</td>
+                  <td>Final Camera Ready Copy Submission : </td>
+                  <td>15 April, 2021</td>
                 </tr>
                 <tr>
-                  <td>To Be Filled</td>
-                  <td>To Be Filled</td>
-                </tr>
-                <tr>
-                  <td>To Be Filled</td>
-                  <td>To Be Filled</td>
-                </tr>
-                <tr>
-                  <td>To Be Filled</td>
-                  <td>To Be Filled</td>
+                  <td>Conference Dates : </td>
+                  <td>20 Aug, 2021 to 22 Aug, 2021</td>
                 </tr>
               </table>
             </div>
@@ -112,14 +104,17 @@ export default function Landing() {
           th,
           td {
             border: 1px solid black;
-            padding: 3px;
+            padding: 5px;
+            font-weight: 600;
           }
           .dropbtn {
             background-color: #4caf50;
             color: white;
-            padding: 25px;
+            padding: 15px;
+            height: 120px;
+            width: 120px;
             font-size: 16px;
-            border: none;
+            border: 2px solid lightgrey;
             cursor: pointer;
             border-radius: 50%;
           }

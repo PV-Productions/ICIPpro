@@ -34,14 +34,6 @@ export default function Sponsor() {
       <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
-          height="200"
-          src="/logo PNG.png"
-        ></img>
-        <h3>IEEE Bangalore Section</h3>
-      </div>
-      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
-        <img
-          width={wWidth > 560 ? "300" : "180"}
           height="240"
           src="/logo3Artboard 1PNG.png"
         ></img>
