@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Navbar() {
   const [wWidth, setwWidth] = React.useState(0);
@@ -37,13 +38,7 @@ export default function Navbar() {
               <a className="nav-links">About Us</a>
             </Link>
           </li>
-          <li>
-            <Link href="/nav/contact">
-              <a className="nav-links">
-                {wWidth > 560 ? "Contact Us" : "Contact"}
-              </a>
-            </Link>
-          </li>
+
           <li>
             <a
               className="nav-links"
