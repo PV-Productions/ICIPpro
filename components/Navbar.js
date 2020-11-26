@@ -96,7 +96,7 @@ export default function Navbar() {
         {`
           .navbar {
             font-size: 7.5px;
-            background-color: #aeeeee;
+            background-color: lightblue;
             color: #800000;
             padding-bottom: 10px;
             box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);

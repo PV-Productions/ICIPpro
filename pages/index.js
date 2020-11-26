@@ -58,6 +58,9 @@ export default function Home() {
               color: "#800000",
             }}
           >
+            <h1 className="kelage2" style={{ color: "black" }}>
+              ICInPro-2021
+            </h1>
             <p>
               ICInPro-2021 is a pioneer International Conference of the ICIP and
               the ICInPro Series and is the Sixteenth Conference which is to be
@@ -126,6 +129,14 @@ export default function Home() {
             flex-wrap: wrap;
             width: 100%;
             height: 100vh;
+          }
+          .kelage2:after {
+            content: ""; /* This is necessary for the pseudo element to work. */
+            display: block; /* This will put the pseudo element on its own line. */
+            margin-left: 40px; /* This will center the border. */
+            width: 10%; /* Change this to whatever width you want. */
+            padding-top: 20px; /* This creates some space between the element and the border. */
+            border-bottom: 5px solid #337ab7; /* This creates the border. Replace black with whatever color you want. */
           }
           footer {
             height: ${wWidth > 560 ? "4vh" : "6vh"};

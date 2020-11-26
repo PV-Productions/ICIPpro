@@ -51,7 +51,14 @@ export default function venue() {
             ICInPro-2021
           </h1>
           <img src="/logo123.png" height="120" width="150" />
-          <p style={{ textAlign: "justify", fontSize: 20, color: "grey" }}>
+          <p
+            style={{
+              textAlign: "justify",
+              fontSize: 20,
+              color: "black",
+              fontWeight: 600,
+            }}
+          >
             ICInPro-2021 is a pioneer International Conference of the ICIP and
             the ICInPro Series and is the Sixteenth Conference which is to be
             held in 2021. The ICInPro series of the conference was one of the
@@ -101,9 +108,16 @@ export default function venue() {
             src="/design-f6dcf0e9-bae6-4864-ac14-6505b62d93b9.png"
             style={{ height: 200, width: 260 }}
           />
-          <p style={{ textAlign: "justify", fontSize: 20, color: "grey" }}>
+          <p
+            style={{
+              textAlign: "justify",
+              fontSize: 20,
+              color: "black",
+              fontWeight: 600,
+            }}
+          >
             The University Visvesvaraya College of Engineering (UVCE) is the
-            finest engineering college in the country Which was among the first
+            finest engineering college in the country which was among the first
             engineering colleges in the state and fifth in the Country.
             Established in 1917 as a full-fledged Engineering College by Bharat
             Ratna Sir M Visvesvaraya , UVCE was given heritage status and is the

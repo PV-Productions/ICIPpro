@@ -113,7 +113,7 @@ export default function Landing() {
             font-weight: 600;
           }
           .dropbtn {
-            background-color: #236b8e;
+            background-color: grey;
             color: white;
             padding: 15px;
             height: 120px;
