@@ -33,6 +33,11 @@ export default function Landing() {
             <Fade duration={1500} delay={1300}>
               <h3>ICInPro-2021</h3>
             </Fade>
+            <Fade duration={1500} delay={1300}>
+              <h6 style={{ fontSize: 30 }}>
+                Bangalore, India: August 20-22, 2021
+              </h6>
+            </Fade>
           </h1>
         </div>
         <div className="dropdown">
@@ -108,13 +113,13 @@ export default function Landing() {
             font-weight: 600;
           }
           .dropbtn {
-            background-color: #4caf50;
+            background-color: #236b8e;
             color: white;
             padding: 15px;
             height: 120px;
             width: 120px;
             font-size: 16px;
-            border: 2px solid lightgrey;
+            border: 1px solid lightgrey;
             cursor: pointer;
             border-radius: 50%;
           }
@@ -153,9 +158,6 @@ export default function Landing() {
             display: block;
           }
 
-          .dropdown:hover .dropbtn {
-            background-color: #3e8e41;
-          }
           .landing {
             position: relative;
             display: flex;

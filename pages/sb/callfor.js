@@ -12,34 +12,58 @@ export default function callfor() {
       label: "Data Science",
       content: (
         <ul>
-          <li style={{ padding: 10 }}>Data Governance</li>
-          <li style={{ padding: 10 }}>Data Engineering and Architecture</li>
-          <li style={{ padding: 10 }}>Data Visualization</li>
-          <li style={{ padding: 10 }}>Data Warehousing and Security</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>Data Governance</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Data Engineering and Architecture
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Data Visualization</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Data Warehousing and Security
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Data Mining and its Applications in Science, Engineering and
             Healthcare.
           </li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Text mining and Natural Language Processing
           </li>
-          <li style={{ padding: 10 }}>Social Media Analysis,</li>
-          <li style={{ padding: 10 }}>Web Science and Semantics</li>
-          <li style={{ padding: 10 }}>Bioinformatics in Data Science</li>
-          <li style={{ padding: 10 }}>Artificial Intelligence</li>
-          <li style={{ padding: 10 }}>Swarm Intelligence</li>
-          <li style={{ padding: 10 }}>Machine Learning and Deep Learning</li>
-          <li style={{ padding: 10 }}>Big Data Analytics</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Social Media Analysis,
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Web Science and Semantics
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Bioinformatics in Data Science
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Artificial Intelligence
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Swarm Intelligence</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Machine Learning and Deep Learning
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Big Data Analytics</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Big Data Challenges, Opportunities and Applications,
           </li>
-          <li style={{ padding: 10 }}>Business Analytics</li>
-          <li style={{ padding: 10 }}>Business Intelligence and Compliance</li>
-          <li style={{ padding: 10 }}>Process driven Decision Making</li>
-          <li style={{ padding: 10 }}>Data Analytics in Business Management</li>
-          <li style={{ padding: 10 }}>Knowledge Engineering</li>
-          <li style={{ padding: 10 }}>Cognitive Systems and Research</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>Business Analytics</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Business Intelligence and Compliance
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Process driven Decision Making
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Data Analytics in Business Management
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Knowledge Engineering
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Cognitive Systems and Research
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Ubiquitous Data Management and Mobile Databases
           </li>
         </ul>
@@ -49,20 +73,36 @@ export default function callfor() {
       label: "Computer Network and Security",
       content: (
         <ul>
-          <li style={{ padding: 10 }}>Computer Networks</li>
-          <li style={{ padding: 10 }}>Wireless Sensor Networks</li>
-          <li style={{ padding: 10 }}>Block chain Technology</li>
-          <li style={{ padding: 10 }}>Multimedia Security</li>
-          <li style={{ padding: 10 }}>Cryptography and Service Computing</li>
-          <li style={{ padding: 10 }}>Wireless Communications</li>
-          <li style={{ padding: 10 }}>Ad-Hoc and Mobile Networks</li>
-          <li style={{ padding: 10 }}>Social Networks</li>
-          <li style={{ padding: 10 }}>Semantic Networks</li>
-          <li style={{ padding: 10 }}>Sustainable Information Grid</li>
-          <li style={{ padding: 10 }}>Sensor and Actuator Networks</li>
-          <li style={{ padding: 10 }}>Information Processing Over Networks</li>
-          <li style={{ padding: 10 }}>Optical Networks</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>Computer Networks</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Wireless Sensor Networks
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Block chain Technology
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Multimedia Security</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Cryptography and Service Computing
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Wireless Communications
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Ad-Hoc and Mobile Networks
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Social Networks</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Semantic Networks</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Sustainable Information Grid
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Sensor and Actuator Networks
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Information Processing Over Networks
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Optical Networks</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Cryptography, Security and privacy of Mobile and Wireless networks
           </li>
         </ul>
@@ -72,25 +112,42 @@ export default function callfor() {
       label: "Computing",
       content: (
         <ul>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Bioinformatics and Computing in Medicine
           </li>
-          <li style={{ padding: 10 }}> Computer Architecture & Systems</li>
-          <li style={{ padding: 10 }}>Computer Vision and Graphics</li>
-          <li style={{ padding: 10 }}>Human Computer Interaction</li>
-          <li style={{ padding: 10 }}>Pattern Recognition</li>
-          <li style={{ padding: 10 }}>Autonomic Computing</li>
-          <li style={{ padding: 10 }}>Neural computing and applications</li>
-          <li style={{ padding: 10 }}>Cluster and Super Computing</li>
-          <li style={{ padding: 10 }}>Distributed and Green Computing</li>
-          <li style={{ padding: 10 }}>Theoretical Computer Science</li>
-          <li style={{ padding: 10 }}>Software Engineering</li>
-          <li style={{ padding: 10 }}>Petro Informatics</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            {" "}
+            Computer Architecture & Systems
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Computer Vision and Graphics
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Human Computer Interaction
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Pattern Recognition</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Autonomic Computing</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Neural computing and applications
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Cluster and Super Computing
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Distributed and Green Computing
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Theoretical Computer Science
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Software Engineering</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Petro Informatics</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Semantic Computing and Ontology Engineering
           </li>
-          <li style={{ padding: 10 }}>Internet Computing</li>
-          <li style={{ padding: 10 }}>Sustainable Computing</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Internet Computing</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Sustainable Computing
+          </li>
         </ul>
       ),
     },
@@ -98,26 +155,38 @@ export default function callfor() {
       label: "Internet of Things",
       content: (
         <ul>
-          <li style={{ padding: 10 }}> IoT Architecture</li>
-          <li style={{ padding: 10 }}>Social IoT</li>
-          <li style={{ padding: 10 }}>Industrial IoT,</li>
-          <li style={{ padding: 10 }}>Cyber Physical Systems</li>
-          <li style={{ padding: 10 }}>Smart Cities and Connected Living</li>
-          <li style={{ padding: 10 }}>Connected Services</li>
-          <li style={{ padding: 10 }}>Smart metering</li>
-          <li style={{ padding: 10 }}>IoT Pricing Models</li>
-          <li style={{ padding: 10 }}>Edge Computing and Routing</li>
-          <li style={{ padding: 10 }}>Web services and IoT Integrations</li>
-          <li style={{ padding: 10 }}>Hybrid Cloud Processing</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}> IoT Architecture</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Social IoT</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Industrial IoT,</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Cyber Physical Systems
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Smart Cities and Connected Living
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Connected Services</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Smart metering</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>IoT Pricing Models</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Edge Computing and Routing
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Web services and IoT Integrations
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Hybrid Cloud Processing
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             IoT Security, Privacy and Data Protection
           </li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Green IoT: Sustainable Design and Technologies
           </li>
-          <li style={{ padding: 10 }}>IoT and Blockchain</li>
-          <li style={{ padding: 10 }}>Fog and Cloud Computing</li>
-          <li style={{ padding: 10 }}>Web of Things</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>IoT and Blockchain</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Fog and Cloud Computing
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Web of Things</li>
         </ul>
       ),
     },
@@ -125,30 +194,57 @@ export default function callfor() {
       label: "Intelligence Track ",
       content: (
         <ul>
-          <li style={{ padding: 10 }}>Nano & Semiconductor Technology</li>
-          <li style={{ padding: 10 }}>Signal, Image & Video Processing</li>
-          <li style={{ padding: 10 }}>VLSI, Circui & Systems</li>
-          <li style={{ padding: 10 }}>Antenna and Propagation</li>
-          <li style={{ padding: 10 }}>Electromagnetic Theory</li>
-          <li style={{ padding: 10 }}>Microwave Engineering</li>
-          <li style={{ padding: 10 }}>Instrumentation and Measurement</li>
-          <li style={{ padding: 10 }}>Mechatronics</li>
-          <li style={{ padding: 10 }}>VLSI and Embedded Systems</li>
-          <li style={{ padding: 10 }}>Robotics, Control and Automation</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Nano & Semiconductor Technology
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Signal, Image & Video Processing
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            VLSI, Circui & Systems
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Antenna and Propagation
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Electromagnetic Theory
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Microwave Engineering
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Instrumentation and Measurement
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Mechatronics</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            VLSI and Embedded Systems
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Robotics, Control and Automation
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Social Robotics and Affective Computing
           </li>
-          <li style={{ padding: 10 }}> Reinforcement Learning in Robotics</li>
-          <li style={{ padding: 10 }}> Software Robotics</li>
-          <li style={{ padding: 10 }}>Humanitarian Technology</li>
-          <li style={{ padding: 10 }}>Industry 4.0</li>
-          <li style={{ padding: 10 }}>Computational Technology for Blind</li>
-          <li style={{ padding: 10 }}> Social ICTs</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            {" "}
+            Reinforcement Learning in Robotics
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}> Software Robotics</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Humanitarian Technology
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>Industry 4.0</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Computational Technology for Blind
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}> Social ICTs</li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Disaster Recovery and Management Technologies
           </li>
-          <li style={{ padding: 10 }}>Technologies in Prosthetics</li>
-          <li style={{ padding: 10 }}>
+          <li style={{ padding: 10, fontWeight: 600 }}>
+            Technologies in Prosthetics
+          </li>
+          <li style={{ padding: 10, fontWeight: 600 }}>
             Green Engineering and Sustainable Development
           </li>
         </ul>
@@ -189,24 +285,14 @@ export default function callfor() {
             flexWrap: "wrap",
           }}
         >
-          <h2
-            className="kelage1"
-            style={{
-              color: "red",
-              fontSize: 40,
-              width: "100%",
-              textAlign: "center",
-            }}
-          >
-            Call for Papers
-          </h2>
-
           <p
             style={{
-              textAlign: "left",
+              textAlign: "justify",
               fontSize: 20,
-              color: "grey",
+              fontWeight: 600,
+              color: "black",
               paddingTop: 30,
+              textIndent: 20,
             }}
           >
             The Sixteenth International Conference on Information Processing

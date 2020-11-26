@@ -59,8 +59,7 @@ export default function Sliders() {
             key={index}
             className="texts"
             style={{
-              background:
-                "linear-gradient(to bottom right, lightgreen, lightblue)",
+              background: "lightblue",
             }}
           >
             <h2 style={{ fontSize: "40px", color: "firebrick" }}>

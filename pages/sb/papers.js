@@ -17,7 +17,7 @@ export default function venue() {
           className="headerCALL"
           style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
         >
-          To Be updated
+          To Be Updated
         </h1>
 
         <style jsx>

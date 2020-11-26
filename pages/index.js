@@ -54,29 +54,36 @@ export default function Home() {
               textIndent: "35px",
               fontSize: 20,
               background: "ghostwhite",
-              fontWeight: 500,
+              fontWeight: 600,
               color: "#800000",
             }}
           >
             <p>
-              The Sixteenth International Conference on Information Processing
-              (ICInPro 2021) will be held in Bangalore, in the month of August
-              2021. ICInPro 2021 is the Sixteenth Conference in its series aimed
-              at stimulating technical exchange among Scientists and Engineers
-              and capture highly innovative and state of the art Research Papers
-              in the emerging field of Information Processing.
+              ICInPro-2021 is a pioneer International Conference of the ICIP and
+              the ICInPro Series and is the Sixteenth Conference which is to be
+              held in 2021. The ICInPro series of the conference was one of the
+              first international conferences organized in Bangalore since 2007.
+              Chaired by Pioneers in Research and Academia, the ICInPro-2021
+              focuses on high-quality publication. The ICInPro-2021 is a legacy
+              conference organized by the prestigious University Visvesvaraya
+              College of Engineering, Bangalore University, Bangalore, and is
+              mentored by several renowned researchers across the globe.
             </p>
             <br />
 
             <p>
-              The Sixteenth International Conference on Information Processing
-              (ICInPro 2021) invites high-quality recent research results in the
-              areas of Internet of Things, Data Science, Security for Internet
-              of Things, Information Processing and Pattern Recognition,
-              Computer Communication networks, Hardware and Optimization, Soft
-              Computing, Distributed Systems, Software Engineering, Bio
-              computing, Data mining, Artificial Intelligence and Image
-              Processing.
+              ICInPro strives for quality and excellence in research and is the
+              right arena to share and exchange stimulating ideas exchange among
+              Scientists and Engineers and capture highly innovative and state
+              of the art Research Papers in the emerging field of Information
+              Processing. The ICInPro-2021 carries the legacy forward and
+              invites high-quality recent research results in the areas of
+              Internet of Things (IoT), Data Science, Security For Internet Of
+              Things, Information Processing And Pattern Recognition, Computer
+              Communication Networks, Hardware And Optimization, Soft Computing,
+              Distributed Systems, Software Engineering, Bio Computing, Data
+              Mining, Artificial Intelligence, and all recent trends in
+              computing.
             </p>
           </div>
 
@@ -86,9 +93,9 @@ export default function Home() {
               width: wWidth > 560 ? "100vw" : "100vw",
               float: "right",
               textAlign: "center",
-              color: "firebrick",
+              color: "white",
               fontSize: 40,
-              backgroundColor: "lightgray",
+              backgroundColor: "#800000",
             }}
           >
             Tracks

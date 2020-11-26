@@ -24,7 +24,7 @@ export default function guidelines() {
             className="headerCALL"
             style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
           >
-            Guidelines to Be Updated
+            To Be Updated
           </h1>
           <style jsx>
             {`
