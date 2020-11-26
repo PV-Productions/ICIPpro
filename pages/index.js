@@ -53,8 +53,8 @@ export default function Home() {
               textAlign: "justify",
               textIndent: "35px",
               fontSize: 20,
-              background:
-                "linear-gradient(to bottom left, lightblue, lightgreen)",
+              background: "ghostwhite",
+              fontWeight: 500,
               color: "#800000",
             }}
           >

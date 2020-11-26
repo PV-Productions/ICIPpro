@@ -52,12 +52,26 @@ export default function venue() {
           </h1>
           <img src="/logo123.png" height="120" width="150" />
           <p style={{ textAlign: "left", fontSize: 20, color: "grey" }}>
-            The Sixteenth International Conference on Information Processing
-            (ICInPro 2021) will be held in Bangalore, in the month of August
-            2021. ICInPro 2021 is the Sixteenth Conference in its series aimed
-            at stimulating technical exchange among Scientists and Engineers and
-            capture highly innovative and state of the art Research Papers in
-            the emerging field of Information Processing.
+            ICInPro-2021 is a pioneer International Conference of the ICIP and
+            the ICInPro Series and is the Sixteenth Conference which is to be
+            held in 2021. The ICInPro series of the conference was one of the
+            first international conferences organized in Bangalore since 2007.
+            Chaired by Pioneers in Research and Academia, the ICInPro-2021
+            focuses on high-quality publication. The ICInPro-2021 is a legacy
+            conference organized by the prestigious University Visvesvaraya
+            College of Engineering, Bangalore University, Bangalore, and is
+            mentored by several renowned researchers across the globe. ICInPro
+            strives for quality and excellence in research and is the right
+            arena to share and exchange stimulating ideas exchange among
+            Scientists and Engineers and capture highly innovative and state of
+            the art Research Papers in the emerging field of Information
+            Processing. The ICInPro-2021 carries the legacy forward and invites
+            high-quality recent research results in the areas of Internet of
+            Things (IoT), Data Science, Security For Internet Of Things,
+            Information Processing And Pattern Recognition, Computer
+            Communication Networks, Hardware And Optimization, Soft Computing,
+            Distributed Systems, Software Engineering, Bio Computing, Data
+            Mining, Artificial Intelligence, and all recent trends in computing.
           </p>
         </div>
         <div
@@ -84,20 +98,23 @@ export default function venue() {
             University Visvesvaraya College of Engineering
           </h1>
           <img
-            src="https://uvce.ac.in/img/UVCE/uvce_vector.png"
-            style={{ height: 120, width: 180 }}
+            src="/design-f6dcf0e9-bae6-4864-ac14-6505b62d93b9.png"
+            style={{ height: 200, width: 260 }}
           />
           <p style={{ textAlign: "left", fontSize: 20, color: "grey" }}>
-            University Visvesvaraya College of Engineering was established in
-            the year 1917 by Bharat Ratna Sir M Visvesvaraya. It is the Fifth
-            Engineering College to be established in the country. After the
-            formation of Bangalore University in 1964, UVCE became one of the
-            Constitutent Colleges of Bangalore University. This is one of the
-            oldest technical institutions in the country imparting technical
-            education leading to BE, ME, B.Arch, M.Arch, M.Sc.(Engineering) and
-            Ph.D degrees in the various disciplines of Engineering and
-            Architecture. It has completed 92 years of Academic Excellence since
-            its inception.
+            The University Visvesvaraya College of Engineering (UVCE) is the
+            finest engineering college in the country which was the first
+            Engineering College in the State and fifth in the Country.
+            Established in 1917 as a full-fledged Engineering College by Bharat
+            Ratna Sir M Visvesvaraya , UVCE was given heritage status and is the
+            sole Constituent College of the Bangalore University for
+            Engineering. UVCE has been successful in striving towards brilliance
+            and excellence in academics and research for the past 103 years
+            fulfilling its legacy. This is one of the oldest technical
+            institutions and is among the University Colleges in the country
+            imparting technical education leading to BE, ME, B.Arch, M.Arch,
+            M.Sc.(Engineering) and Ph.D degrees in the various disciplines of
+            Engineering and Architecture.
           </p>
         </div>
         {/* 
@@ -325,9 +342,9 @@ export default function venue() {
           .aboutCALL {
             position: absolute;
             top: 0;
-            margin-top: 12vh;
-            width: 100%;
-            background-color: lightgreen;
+            margin-top: 11vh;
+            width: 110%;
+            background-color: #800000;
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
             text-align: center;

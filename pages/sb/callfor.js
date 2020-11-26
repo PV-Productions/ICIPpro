@@ -178,9 +178,54 @@ export default function callfor() {
         >
           Call for Papers
         </h1>
+        <div
+          className="wrapper"
+          style={{
+            display: "flex",
+
+            justifyContent: "center",
+            width: wWidth > 560 ? "100vw" : "100vw",
+            padding: 40,
+            flexWrap: "wrap",
+          }}
+        >
+          <h2
+            className="kelage1"
+            style={{
+              color: "red",
+              fontSize: 40,
+              width: "100%",
+              textAlign: "center",
+            }}
+          >
+            Call for Papers
+          </h2>
+
+          <p
+            style={{
+              textAlign: "left",
+              fontSize: 20,
+              color: "grey",
+              paddingTop: 30,
+            }}
+          >
+            The Sixteenth International Conference on Information Processing
+            (ICInPro-2021) is a conference that focuses on information
+            processing in all facets of Computing and Computational Sciences.
+            The ICInPro-2021 attracts researchers from all fields of Computing,
+            Engineering, Robotics, Health Care to exchange ideas and present
+            their work. Information Processing can deal with Computing, Internet
+            of Things (IoT), Networking & Security, Robotics, Industry 4.0, Data
+            Science, Management Science, Humanitarian Computing, Information
+            Technology and Society, and other recent trends. The Sixteenth
+            International Conference on Information Processing (ICInPro-2021)
+            aims high standard research manuscript with the scope of Information
+            Processing irrespective of the field.
+          </p>
+        </div>
         <h3>
-          Topics of interest include(but are not limited to) the following, in
-          the context of Information Processing.
+          The conference welcomes papers in the following tracks with scope not
+          limited to:
         </h3>
         <Accordion>
           {panels.map((panel) => (
@@ -211,16 +256,23 @@ export default function callfor() {
             }
             .headerCALL {
               width: 100%;
-              background-color: lightgreen;
+              background-color: #800000;
               color: white;
               box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
               text-align: center;
               margin-top: 11vh;
             }
+            .kelage1:after {
+              content: ""; /* This is necessary for the pseudo element to work. */
+              display: block; /* This will put the pseudo element on its own line. */
+              margin: 0 auto; /* This will center the border. */
+              width: 15%; /* Change this to whatever width you want. */
+              padding-top: 20px; /* This creates some space between the element and the border. */
+              border-bottom: 5px solid #337ab7; /* This creates the border. Replace black with whatever color you want. */
+            }
             h3 {
               color: red;
               text-transform: uppercase;
-              margin-top: 10vh;
             }
             ul li {
               padding: 20px;

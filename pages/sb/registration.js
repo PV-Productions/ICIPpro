@@ -22,9 +22,9 @@ export default function venue() {
           className="headerV"
           style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
         >
-          Registration
+          Registration - To be Updated
         </h1>
-        <div
+        {/* <div
           style={{
             width: wWidth > 560 ? "100vw" : "100vw",
             float: "right",
@@ -124,7 +124,7 @@ export default function venue() {
             Online Registration Link{" "}
           </a>{" "}
           (Please pay the requisite fee before online registration)
-        </h3>
+        </h3> */}
         <style jsx>
           {`
             .wrapperVEN {
@@ -132,13 +132,13 @@ export default function venue() {
               justify-content: center;
               align-items: center;
               flex-wrap: wrap;
-              margin-top: 12vh;
+              margin-top: 11vh;
             }
             .headerV {
               width: 100%;
               font-size: 72px;
               text-align: center;
-              background-color: lightgreen;
+              background-color: #800000;
               color: white;
 
               box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);

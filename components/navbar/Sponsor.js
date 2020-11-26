@@ -65,12 +65,12 @@ export default function Sponsor() {
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            margin-top: 12vh;
+            margin-top: 11vh;
           }
           .headerS {
             width: 80vw;
             text-align: center;
-            background-color: lightgreen;
+            background-color: #800000;
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);
             margin-bottom: 40px;

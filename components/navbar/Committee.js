@@ -284,7 +284,7 @@ export default function Committee() {
           }
           .headerCALL {
             width: 100%;
-            background-color: lightgreen;
+            background-color: #800000;
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
             text-align: center;

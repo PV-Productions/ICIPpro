@@ -54,13 +54,13 @@ export default function venue() {
               justify-content: center;
               align-items: center;
               flex-wrap: wrap;
-              margin-top: 12vh;
+              margin-top: 11vh;
             }
             .headerV {
               width: 100%;
               font-size: 72px;
               text-align: center;
-              background-color: lightgreen;
+              background-color: #800000;
               color: white;
 
               box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);
@@ -72,8 +72,9 @@ export default function venue() {
             table,
             th,
             td {
-              border: 1px solid black;
-              padding: 3px;
+              border: 2px solid black;
+              padding: 15px;
+              font-weight: 700;
             }
           `}
         </style>
