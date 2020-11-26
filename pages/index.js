@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Landing from "../components/Landing";
 import Sidebar from "../components/sidebar/Sidebar";
 import Navbar from "../components/Navbar";
+import Navbar2 from "../components/Navbar2";
 import Logos from "../components/Logos";
 import Slider from "../components/Slider";
 
@@ -13,6 +14,7 @@ export default function Home() {
   });
   return (
     <>
+      {/* <Navbar /> */}
       <Navbar />
       <div className="container">
         <Head>
@@ -47,14 +49,14 @@ export default function Home() {
               width: wWidth > 560 ? "100vw" : "100vw",
               float: "right",
               boxShadow: "2px 2px 10px 5px lightgrey",
-              marginTop: 50,
+              marginTop: wWidth > 560 ? 50 : 180,
               paddingTop: 100,
               padding: 50,
               textAlign: "justify",
               textIndent: "35px",
               fontSize: 20,
               background: "ghostwhite",
-              fontWeight: 600,
+
               color: "#800000",
             }}
           >
@@ -134,9 +136,18 @@ export default function Home() {
             content: ""; /* This is necessary for the pseudo element to work. */
             display: block; /* This will put the pseudo element on its own line. */
             margin-left: 40px; /* This will center the border. */
-            width: 10%; /* Change this to whatever width you want. */
+            width: ${wWidth > 560
+              ? "10%"
+              : "20%"}; /* Change this to whatever width you want. */
             padding-top: 20px; /* This creates some space between the element and the border. */
             border-bottom: 5px solid #337ab7; /* This creates the border. Replace black with whatever color you want. */
+          }
+          .kelage2 {
+            font-size: ${wWidth > 560 ? "40px" : "22px"};
+            padding-bottom: ${wWidth > 560 ? "40px" : "0px"};
+          }
+          p {
+            font-size: ${wWidth > 560 ? "16px" : "12px"};
           }
           footer {
             height: ${wWidth > 560 ? "4vh" : "6vh"};

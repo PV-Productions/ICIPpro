@@ -62,7 +62,12 @@ export default function Sliders() {
               background: "lightblue",
             }}
           >
-            <h2 style={{ fontSize: "40px", color: "firebrick" }}>
+            <h2
+              style={{
+                fontSize: wWidth > 560 ? "40px" : "20px",
+                color: "firebrick",
+              }}
+            >
               {slide.title}
             </h2>
           </div>

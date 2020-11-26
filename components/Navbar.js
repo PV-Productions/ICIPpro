@@ -95,7 +95,7 @@ export default function Navbar() {
       <style jsx>
         {`
           .navbar {
-            font-size: 7.5px;
+            font-size: 7px;
             background-color: lightblue;
             color: #800000;
             padding-bottom: 10px;
@@ -109,11 +109,15 @@ export default function Navbar() {
             list-style-type: none;
             display: flex;
             margin-right: 30px;
-            margin-top: -55px;
+            margin-top: -58px;
             flex-direction: row;
             align-items: center;
             justify-content: center;
             font-weight: 600;
+          }
+
+          .nav-links {
+            padding: 0;
           }
 
           .nav-links,
@@ -127,7 +131,14 @@ export default function Navbar() {
 
             padding: 10px;
           }
-          .main-nav li:nth-child(4) {
+
+          .main-nav li:nth-child(7) {
+            display: none;
+          }
+          .main-nav li:nth-child(8) {
+            display: none;
+          }
+          .main-nav li:nth-child(9) {
             display: none;
           }
 
@@ -184,6 +195,12 @@ export default function Navbar() {
               padding: 0px;
             }
             .main-nav li:nth-child(4) {
+              display: block;
+            }
+            .main-nav li:nth-child(7) {
+              display: block;
+            }
+            .main-nav li:nth-child(9) {
               display: block;
             }
 

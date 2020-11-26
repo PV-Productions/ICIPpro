@@ -20,7 +20,7 @@ export default function Sponsor() {
       >
         Sponsors
       </h1>
-      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
+      <div className="one" style={{ width: wWidth > 560 ? "33%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
           height="240"
@@ -31,7 +31,7 @@ export default function Sponsor() {
         </h3>
       </div>
 
-      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
+      <div className="one" style={{ width: wWidth > 560 ? "33%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
           height="240"
@@ -45,7 +45,7 @@ export default function Sponsor() {
           Bangalore University, Bangalore - 560 001.
         </h3>
       </div>
-      <div className="one" style={{ width: wWidth > 560 ? "100%" : "80%" }}>
+      <div className="one" style={{ width: wWidth > 560 ? "33%" : "80%" }}>
         <img
           width={wWidth > 560 ? "300" : "180"}
           height="200"
@@ -74,6 +74,7 @@ export default function Sponsor() {
             color: white;
             box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);
             margin-bottom: 40px;
+            margin-top: ${wWidth > 560 ? "-150px" : "0px"};
           }
           .one {
             height: auto;
@@ -84,8 +85,9 @@ export default function Sponsor() {
             text-align: center;
           }
           .one h3 {
+            font-size: ${wWidth > 560 ? "15px" : "13px"};
             width: 100%;
-            padding: 30px;
+            padding: 20px;
           }
         `}
       </style>

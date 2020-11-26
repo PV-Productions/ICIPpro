@@ -20,13 +20,19 @@ export default function venue() {
       >
         <h1
           className="headerV"
-          style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
+          style={{ fontSize: wWidth > 560 ? "72px" : "40px" }}
         >
           Important Dates
         </h1>
 
         <div>
-          <div style={{ overflowX: "auto", margin: "80px" }}>
+          <div
+            style={{
+              overflowX: "auto",
+              margin: wWidth > 560 ? "80px" : "40px",
+              width: wWidth > 560 ? "80%" : "80%",
+            }}
+          >
             <table>
               <tr>
                 <td>Paper Submission Deadline : </td>
@@ -73,7 +79,7 @@ export default function venue() {
             th,
             td {
               border: 2px solid black;
-              padding: 15px;
+              padding: ${wWidth > 560 ? "15px" : "2px"};
               font-weight: 700;
             }
           `}

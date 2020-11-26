@@ -288,7 +288,7 @@ export default function callfor() {
           <p
             style={{
               textAlign: "justify",
-              fontSize: 20,
+              fontSize: wWidth > 560 ? 16 : 12,
               fontWeight: 600,
               color: "black",
               paddingTop: 30,
@@ -309,7 +309,7 @@ export default function callfor() {
             Processing irrespective of the field.
           </p>
         </div>
-        <h3>
+        <h3 style={{ fontSize: wWidth > 560 ? 23 : 12 }}>
           The conference welcomes papers in the following tracks with scope not
           limited to:
         </h3>
@@ -365,7 +365,7 @@ export default function callfor() {
             }
             .accor {
               width: 100%;
-              margin: 20px;
+              margin: 10px;
               border: 1px solid #ddd;
               -webkit-transition: 0.4s;
               transition: 0.4s;
@@ -374,7 +374,7 @@ export default function callfor() {
               background: #eee;
               padding: 10px 20px;
               cursor: pointer;
-              font-size: 20px;
+              font-size: ${wWidth > 560 ? "20px" : "15px"};
             }
             .accor .body {
               display: flex;

@@ -43,7 +43,7 @@ export default function venue() {
             className="kelage1"
             style={{
               color: "red",
-              fontSize: 45,
+              fontSize: wWidth > 560 ? 45 : 25,
               width: "100%",
               textAlign: "center",
             }}
@@ -54,7 +54,7 @@ export default function venue() {
           <p
             style={{
               textAlign: "justify",
-              fontSize: 20,
+              fontSize: wWidth > 560 ? 16 : 16,
               color: "black",
               fontWeight: 600,
             }}
@@ -96,7 +96,7 @@ export default function venue() {
             className="kelage2"
             style={{
               color: "red",
-              fontSize: 45,
+              fontSize: wWidth > 560 ? 45 : 25,
               width: "100%",
               textAlign: "center",
               paddingBottom: 20,
@@ -111,7 +111,7 @@ export default function venue() {
           <p
             style={{
               textAlign: "justify",
-              fontSize: 20,
+              fontSize: wWidth > 560 ? 16 : 16,
               color: "black",
               fontWeight: 600,
             }}

@@ -41,7 +41,10 @@ export default function Landing() {
           </h1>
         </div>
         <div className="dropdown">
-          <button className="dropbtn">
+          <button
+            className="dropbtn"
+            style={{ display: wWidth > 560 ? "block" : "none" }}
+          >
             Important <br /> Dates
           </button>
           <div className="dropdown-content">
@@ -235,6 +238,7 @@ export default function Landing() {
             width: 200px;
             border-radius: 30px;
             padding: 10px;
+            margin-top: ${wWidth > 560 ? "0px" : "50px"};
             font-weight: 600;
             font-size: 15px;
             outline: none;
@@ -252,7 +256,7 @@ export default function Landing() {
             z-index: 99;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
-            margin-top: ${wWidth > 560 ? "0px" : "250px"};
+            margin-top: ${wWidth > 560 ? "0px" : "300px"};
           }
           .downicon:hover {
             transform: scale(1.4);

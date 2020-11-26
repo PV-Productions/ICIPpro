@@ -185,6 +185,27 @@ export default function Committee() {
       ],
     },
     {
+      label: "Review Committee",
+      content: [
+        // <Card1 name={"P Deepa Shenoy"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"K B Raja"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"K Suresh Babu,"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"J Thriveni"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"S H Manjula"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"S M Dilipkumar"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"Prathibavani P M"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"Roopa"} info={"UVCE, Bangalore"} />,
+        // <Card1 name={"Vibha Lakshmikantha"} info={" BIT, Bangalore"} />,
+        // <Card1 name={"Anita Kanavalli"} info={" MSRIT, Bangalore "} />,
+        // <Card1 name={"Shaila K"} info={" VKIT, Bangalore "} />,
+        // <Card1 name={"Prashanth C R"} info={"  AIT, Bangalore "} />,
+        // <Card1 name={"Ramachandra A C"} info={"  NMIT, Bangalore "} />,
+        // <Card1 name={"Srikantaiah K C"} info={" SJBIT, Bangalore"} />,
+        // <Card1 name={"T Shiva Prakash"} info={" VVIT, Bangalore  "} />,
+        // <Card1 name={"Vidya A"} info={"  VKIT, Bangalore "} />,
+      ],
+    },
+    {
       label: "Organizing Committee",
       content: [
         <Card1 name={"P Deepa Shenoy"} info={"UVCE, Bangalore"} />,
@@ -253,7 +274,7 @@ export default function Committee() {
         className="headerCALL"
         style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
       >
-        Committes
+        Committees
       </h1>
       <Accordion>
         {panels.map((panel) => (

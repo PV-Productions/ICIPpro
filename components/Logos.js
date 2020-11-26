@@ -47,14 +47,15 @@ export default function Logos() {
           align-items: center;
           justify-content: space-around;
           flex-wrap: wrap;
-          height: ${wWidth > 560 ? "50vh" : "20vh"};
+          height: ${wWidth > 560 ? "35vh" : "20vh"};
           margin-bottom: 50px;
         }
         img {
-          width: ${wWidth > 560 ? "22%" : "40%"};
+          width: ${wWidth > 560 ? "15%" : "40%"};
+          margin-left: 100px;
         }
         img:nth-child(2) {
-          width: ${wWidth > 560 ? "30%" : "50%"};
+          width: ${wWidth > 560 ? "20%" : "50%"};
         }
         .card {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
@@ -65,6 +66,10 @@ export default function Logos() {
           height: auto;
 
           display: ${wWidth > 560 ? "block" : "none"};
+        }
+        .card:nth-child(2) {
+          width: 35%;
+          margin-left: 500px;
         }
       `}</style>
     </div>
