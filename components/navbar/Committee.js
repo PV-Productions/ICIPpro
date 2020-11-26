@@ -181,6 +181,7 @@ export default function Committee() {
         <Card1 name={"Srikanth"} info={"Intel, India"} />,
         <Card1 name={"Ravikiran A"} info={"Numocity Technologies, India"} />,
         <Card1 name={"Abhishek Appaji"} info={"BMSCE, Bangalore"} />,
+        <Card1 name={"G K Patra"} info={"CSIR, NAL Bangalore "} />,
       ],
     },
     {
