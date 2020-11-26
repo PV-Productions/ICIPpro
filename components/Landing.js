@@ -28,7 +28,7 @@ export default function Landing() {
             </Zoom>
             <Zoom duration={800} delay={900}>
               {" "}
-              Information processing
+              Information Processing
             </Zoom>
             <Fade duration={1500} delay={1300}>
               <h3>ICInPro-2021</h3>
