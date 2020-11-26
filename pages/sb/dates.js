@@ -16,7 +16,7 @@ export default function venue() {
       </Head>
       <div
         className="wrapperVEN"
-        style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+        style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
       >
         <h1
           className="headerV"
@@ -29,28 +29,20 @@ export default function venue() {
           <div style={{ overflowX: "auto", margin: "80px" }}>
             <table>
               <tr>
-                <td>To Be Filled</td>
-                <td>To Be Filled</td>
+                <td>Paper Submission Deadline : </td>
+                <td>31 Jan, 2021</td>
               </tr>
               <tr>
-                <td>To Be Filled</td>
-                <td>To Be Filled</td>
+                <td>Acceptance Notification : </td>
+                <td>31 March, 2021</td>
               </tr>
               <tr>
-                <td>To Be Filled</td>
-                <td>To Be Filled</td>
+                <td>Final Camera Ready Copy Submission : </td>
+                <td>15 April, 2021</td>
               </tr>
               <tr>
-                <td>To Be Filled</td>
-                <td>To Be Filled</td>
-              </tr>
-              <tr>
-                <td>To Be Filled</td>
-                <td>To Be Filled</td>
-              </tr>
-              <tr>
-                <td>To Be Filled</td>
-                <td>To Be Filled</td>
+                <td>Conference Dates : </td>
+                <td>20 Aug, 2021 to 22 Aug, 2021</td>
               </tr>
             </table>
           </div>
@@ -68,7 +60,7 @@ export default function venue() {
               width: 100%;
               font-size: 72px;
               text-align: center;
-              background-color: lightgray;
+              background-color: lightgreen;
               color: white;
 
               box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);

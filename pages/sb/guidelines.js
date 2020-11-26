@@ -18,13 +18,13 @@ export default function guidelines() {
         </Head>
         <div
           className="wrapperVEN"
-          style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+          style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
         >
           <h1
             className="headerCALL"
             style={{ fontSize: wWidth > 560 ? "72px" : "48px" }}
           >
-            Author Guidelines to Be Updated
+            Guidelines to Be Updated
           </h1>
           <style jsx>
             {`
@@ -37,7 +37,7 @@ export default function guidelines() {
               }
               .headerCALL {
                 width: 100%;
-                background-color: lightgray;
+                background-color: lightgreen;
                 color: white;
                 box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.6);
                 text-align: center;

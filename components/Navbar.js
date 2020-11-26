@@ -20,6 +20,12 @@ export default function Navbar() {
         right: 0,
       }}
     >
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        ></link>
+      </Head>
       <nav className="navbar">
         <img src="/logo123.png" alt="logo" className="logo" />
         <ul className="main-nav" id="js-menu">
@@ -29,13 +35,38 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link href="/sb/about">
+              <a className="nav-links">About Us</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/nav/committees">
               <a className="nav-links">Committees</a>
             </Link>
           </li>
           <li>
-            <Link href="/sb/about">
-              <a className="nav-links">About Us</a>
+            <Link href="/sb/callfor">
+              <a className="nav-links">Call for papers</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/sb/dates">
+              <a className="nav-links">Important Dates</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/sb/papers">
+              <a className="nav-links">Publication</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/sb/registration">
+              <a className="nav-links">Registration</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/sb/guidelines">
+              <a className="nav-links">Guidelines</a>
             </Link>
           </li>
 
@@ -64,7 +95,7 @@ export default function Navbar() {
       <style jsx>
         {`
           .navbar {
-            font-size: 11.5px;
+            font-size: 7.5px;
             background-color: #337ab7;
             color: white;
             padding-bottom: 10px;
@@ -83,7 +114,6 @@ export default function Navbar() {
             align-items: center;
             justify-content: center;
             font-weight: 600;
-            font-family: "Montserrat", sans-serif;
           }
 
           .nav-links,
@@ -134,17 +164,17 @@ export default function Navbar() {
               padding-bottom: 0;
               height: 10vh;
               align-items: center;
-              font-size: 18px;
+              font-size: 13px;
+              text-transform: uppercase;
             }
 
             .main-nav {
               display: flex;
-              margin-right: 30px;
+              margin-right: 20px;
               margin-top: 10px;
               font-weight: 300;
               flex-direction: row;
               justify-content: flex-end;
-              font-family: "Montserrat", sans-serif;
             }
 
             .main-nav li {

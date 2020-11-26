@@ -109,8 +109,7 @@ export default function Home() {
             fontSize: "14px",
           }}
         >
-          ©UVCE 2020-21 All rights reserved || Designed and Developed by
-          PV-Productions
+          ©UVCE 2020-21 All rights reserved
         </footer>
         <style jsx>{`
           .container {

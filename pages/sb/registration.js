@@ -16,7 +16,7 @@ export default function venue() {
       </Head>
       <div
         className="wrapperVEN"
-        style={{ width: wWidth > 560 ? "80vw" : "100vw", float: "right" }}
+        style={{ width: wWidth > 560 ? "100vw" : "100vw", float: "right" }}
       >
         <h1
           className="headerV"
@@ -26,7 +26,7 @@ export default function venue() {
         </h1>
         <div
           style={{
-            width: wWidth > 560 ? "80vw" : "100vw",
+            width: wWidth > 560 ? "100vw" : "100vw",
             float: "right",
           }}
         >
@@ -138,7 +138,7 @@ export default function venue() {
               width: 100%;
               font-size: 72px;
               text-align: center;
-              background-color: lightgray;
+              background-color: lightgreen;
               color: white;
 
               box-shadow: 2px 2px 10px 5px rgba(220, 220, 220, 0.5);
