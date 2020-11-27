@@ -26,6 +26,7 @@ export default function Navbar() {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         ></link>
       </Head>
+    
       <nav className="navbar">
         <img src="/logo123.png" alt="logo" className="logo" />
         <ul className="main-nav" id="js-menu">

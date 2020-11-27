@@ -354,8 +354,7 @@ export default function venue() {
             height: 30vh;
           }
           .aboutCALL {
-            position: absolute;
-            top: 0;
+            
             margin-top: 11vh;
             width: 110%;
             background-color: #800000;

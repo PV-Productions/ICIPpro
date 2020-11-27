@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       {/* <Navbar /> */}
-      <Navbar />
+    {wWidth>560?<Navbar />:<Navbar2/>}  
       <div className="container">
         <Head>
           <title>ICInPro-2021</title>

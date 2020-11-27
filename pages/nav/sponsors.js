@@ -3,12 +3,17 @@ import Layout from "../../components/Layout";
 
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/Navbar";
+import Navbar2 from "../../components/Navbar2";
 import Sponsor from "../../components/navbar/Sponsor";
 
 export default function Sponsors() {
+  const [wWidth, setwWidth] = React.useState(0);
+  React.useEffect(() => {
+    setwWidth(window.innerWidth);
+  });
   return (
     <>
-      <Navbar />
+      {wWidth>560?<Navbar />:<Navbar2/>} 
       <div className="container">
         <Head>
           <title>ICInPro-Sponsors</title>

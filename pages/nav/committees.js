@@ -1,14 +1,18 @@
 import Head from "next/head";
 import Layout from "../../components/Layout";
-
+import Navbar2 from "../../components/Navbar2";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/Navbar";
 import Committee from "../../components/navbar/Committee";
 
 export default function Committees() {
+  const [wWidth, setwWidth] = React.useState(0);
+  React.useEffect(() => {
+    setwWidth(window.innerWidth);
+  });
   return (
     <>
-      <Navbar />
+      {wWidth>560?<Navbar />:<Navbar2/>} 
       <div className="container">
         <Head>
           <title>ICInPro-Committees</title>
