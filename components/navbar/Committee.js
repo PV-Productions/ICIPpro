@@ -187,22 +187,219 @@ export default function Committee() {
     {
       label: "Review Committee",
       content: [
-        // <Card1 name={"P Deepa Shenoy"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"K B Raja"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"K Suresh Babu,"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"J Thriveni"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"S H Manjula"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"S M Dilipkumar"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"Prathibavani P M"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"Roopa"} info={"UVCE, Bangalore"} />,
-        // <Card1 name={"Vibha Lakshmikantha"} info={" BIT, Bangalore"} />,
-        // <Card1 name={"Anita Kanavalli"} info={" MSRIT, Bangalore "} />,
-        // <Card1 name={"Shaila K"} info={" VKIT, Bangalore "} />,
-        // <Card1 name={"Prashanth C R"} info={"  AIT, Bangalore "} />,
-        // <Card1 name={"Ramachandra A C"} info={"  NMIT, Bangalore "} />,
-        // <Card1 name={"Srikantaiah K C"} info={" SJBIT, Bangalore"} />,
-        // <Card1 name={"T Shiva Prakash"} info={" VVIT, Bangalore  "} />,
-        // <Card1 name={"Vidya A"} info={"  VKIT, Bangalore "} />,
+        <Card1 name={"P Deepa Shenoy"} info={"UVCE, Bangalore University"} />,
+        <Card1 name={"D N Sujatha"} info={"BMSCE, Bangalore"} />,
+        <Card1 name={"Hamsaveni"} info={" University of Mysore, Mysuru"} />,
+        <Card1 name={"Raja K B"} info={"UVCE, Bangalore University."} />,
+        <Card1 name={"B M Rajprakash"} info={"UVCE, Bangalore University."} />,
+        <Card1
+          name={"Sujatha A K"}
+          info={"CHRIST (Deemed to be University), Bangalore"}
+        />,
+        <Card1
+          name={"Vinai George B"}
+          info={"CHRIST (Deemed to be University)"}
+        />,
+        <Card1
+          name={"Salman Ayaz"}
+          info={
+            "B S Abdur Rahman Crescent Instiute of Science and Technology, Chennai."
+          }
+        />,
+        <Card1 name={"Niranjan"} info={" Malla Reddy University, Hyderabad"} />,
+        <Card1
+          name={"Shaila S G"}
+          info={" Dayanand Sagar University, Bangalore "}
+        />,
+        <Card1 name={"Rohini G"} info={" Reva University, Bangalore"} />,
+        <Card1 name={"Thriveni J"} info={" UVCE, Bangalore University. "} />,
+        <Card1 name={"S H Manjula"} info={"UVCE, Bangalore University."} />,
+        <Card1
+          name={" S M Dilip Kumar"}
+          info={"UVCE, Bangalore University."}
+        />,
+        <Card1 name={"Pushpa C N"} info={"UVCE, Bangalore University."} />,
+        <Card1 name={"Venkatesh M"} info={" UVCE, Bangalore University."} />,
+        <Card1 name={" Champa H N"} info={"UVCE, Bangalore University."} />,
+        <Card1 name={"Tanuja R"} info={"UVCE, Bangalore University."} />,
+        <Card1 name={"Kiran K"} info={"UVCE, Bangalore University."} />,
+        <Card1 name={"Lata B T"} info={"UVCE, Bangalore University."} />,
+        <Card1 name={"Sunil Kumar"} info={"UVCE, Bangalore University"} />,
+        <Card1 name={"Prathiba Vani"} info={"UVCE, Bangalore University"} />,
+        <Card1 name={"Kumaraswamy"} info={"UVCE, Bangalore University"} />,
+        <Card1 name={"Roopa M S"} info={"UVCE, Bangalore University"} />,
+        <Card1
+          name={"Gerard Deepak"}
+          info={" National Institute of Technology, Tiruchirappalli"}
+        />,
+        <Card1
+          name={"Susan Anita Siron T"}
+          info={"National Institute of Technology, Tiruchirappalli"}
+        />,
+        <Card1
+          name={" Silambarasan"}
+          info={"National Institute of Technology, Tiruchirappalli"}
+        />,
+        <Card1
+          name={"Joe Dhanith"}
+          info={" National Institute of Technology, Puducherry"}
+        />,
+        <Card1
+          name={" Nagalakshmi"}
+          info={"Maharani College, University of Mysore"}
+        />,
+        <Card1 name={"Jeevitha B K"} info={"UVCE, Bangalore University."} />,
+        <Card1 name={"Manasa S M"} info={" UVCE, Bangalore University. "} />,
+        <Card1 name={"Buddessab"} info={" UVCE, Bangalore University "} />,
+        <Card1
+          name={"Punitha V"}
+          info={"Saranathan College of Engineering, Tiruchirappalli."}
+        />,
+        <Card1
+          name={"Vasanthakumar G U"}
+          info={"Nitte Meenakshi College of Engineering, Bangalore"}
+        />,
+        <Card1 name={"Prathap U"} info={"Samsung India."} />,
+        <Card1
+          name={"Levin Varghese"}
+          info={"One Plus Research and Development, India"}
+        />,
+        <Card1 name={" Hiran Nandy"} info={"Qualcomm Research, India"} />,
+        <Card1
+          name={"Chandra Prakash Singh Senghar"}
+          info={" ITC Infortech, India"}
+        />,
+        <Card1
+          name={"Leena Giri"}
+          info={"Amdedkar Institute of Technology, Bangalore."}
+        />,
+        <Card1 name={"Abhilash C N"} info={"SJBIT, Bangalore"} />,
+        <Card1
+          name={"T Shiva Prakash"}
+          info={"Alpha Colllege of Engineering, Bangalore"}
+        />,
+        <Card1 name={" Vidya A"} info={"VKIT, Bangalore "} />,
+        <Card1 name={"Satish S B"} info={"GSKSJTI, Bangalore "} />,
+        <Card1 name={" G Poornima"} info={"BMSCE, Bangalore"} />,
+        <Card1 name={"Satisha"} info={"Govt.SKSJIT"} />,
+        <Card1 name={"Yamuna Devi C R"} info={"Dr.AIT"} />,
+        <Card1
+          name={"Sujit Kumar"}
+          info={" Indian Institute of Technology, Guwahati"}
+        />,
+        <Card1
+          name={"Aarthi P"}
+          info={"National Institute of Technology, Tiruchirappalli"}
+        />,
+        <Card1
+          name={"Navya Prakash"}
+          info={"University of Oldenberg, Germany"}
+        />,
+        <Card1 name={"Sheba Selvam"} info={"BNMIT Bangalore."} />,
+        <Card1 name={"Viswanath Hulipalled"} info={" Reva University"} />,
+        <Card1
+          name={" Saleema J S"}
+          info={" CHRIST (Deemed to be University)"}
+        />,
+        <Card1 name={"Naveen J"} info={"CHRIST (Deemed to be University)"} />,
+        <Card1 name={"Bajaji M"} info={" ISRO, Bangalore "} />,
+        <Card1
+          name={"Zameer Gulzar"}
+          info={
+            "B S Abdur Rahman Crescent Instiute of Science and Technology, Chennai."
+          }
+        />,
+        <Card1 name={" Ramachandra A C"} info={"ACE"} />,
+        <Card1 name={"Shabana Sultana"} info={" NIE, Mysuru"} />,
+        <Card1
+          name={"Karthik. P"}
+          info={"K.S. School of Engineering and Management"}
+        />,
+        <Card1 name={" Alli A"} info={" Presidency College"} />,
+        <Card1
+          name={"Ramesh Naidu L"}
+          info={"Joint Director C-DAC ,Bangalore"}
+        />,
+        <Card1 name={"Sushma P"} info={"NMAM IT, Nitte Udupi"} />,
+        <Card1 name={" Mohit Ved"} info={"C-DAC ,Bangalore"} />,
+        <Card1 name={" Selvi"} info={"Amritha University, Coimbatore"} />,
+        <Card1 name={"Supriya N. Pal"} info={"C-DAC ,Bangalore"} />,
+        <Card1 name={"Jayasudha B S"} info={"K.S. Institute of Technology"} />,
+        <Card1 name={"Ashwini V R"} info={"Canara Engineering College"} />,
+        <Card1
+          name={"D. K. Ravish"}
+          info={"Dr.Ambedkar Institute of Technology, Bangalore"}
+        />,
+        <Card1 name={" Usha Desai"} info={"NMAM IT, Nitte, Udupi"} />,
+        <Card1
+          name={"  Clara Kanmani"}
+          info={"New Horizon College of Engineering Bangalore"}
+        />,
+        <Card1 name={" Naidila Patil"} info={"MSRIT, Bengaluru"} />,
+        <Card1 name={"  C Menaka"} info={"St. Claret College, Bangalore"} />,
+        <Card1 name={" Annappa B"} info={"NITK"} />,
+        <Card1
+          name={" Naidila Sadashiv"}
+          info={" Ramaiah Institute of Technology, Bangalore. "}
+        />,
+        <Card1 name={"Mohan K G"} info={" Presidency University"} />,
+        <Card1 name={"Reshma Banu"} info={"GSSSIETW Mysuru"} />,
+        <Card1
+          name={" A. GEETHA KIRAN"}
+          info={"Malnad college of Engineering, Hassan"}
+        />,
+        <Card1
+          name={"Naveen Pai G"}
+          info={"Yenepoya Institute of Technology"}
+        />,
+        <Card1
+          name={"Rajesh Kalluri"}
+          info={"Joint Director C-DAC ,Bangalore"}
+        />,
+        <Card1 name={" Prashanth G Rao"} info={"SAP, Bengaluru"} />,
+        <Card1
+          name={"Somanjoli Mohapatra"}
+          info={" Canara Engineering College"}
+        />,
+        <Card1 name={"Manjula Sanjay"} info={"Koti"} />,
+        <Card1
+          name={"Geetha Maiya"}
+          info={"Manipal Institute of Technology"}
+        />,
+        <Card1
+          name={"Prathiba V Kalburgi"}
+          info={"Ramaiah College of Arts, Science and Commerce"}
+        />,
+        <Card1 name={"Sangita Dhara"} info={" IIT Kharagpur"} />,
+        <Card1 name={"Somreeta Pramanik"} info={" IIT Kharagpur"} />,
+        <Card1
+          name={"Sumit Kumar Saurav"}
+          info={"Principal Technical Officer C-DAC ,Bangalore"}
+        />,
+        <Card1
+          name={"Sukeshini"}
+          info={"Principal Technical Officer C-DAC ,Bangalore"}
+        />,
+        <Card1
+          name={"Chitra S"}
+          info={"Maharani Lakshmi Ammanni College for Women, Bangalore"}
+        />,
+        <Card1
+          name={"H. N. SURESH"}
+          info={"Malnad college of Engineering, Hassan"}
+        />,
+        <Card1 name={"M. Ravikumar"} info={" Kuvempu University, Shimoga"} />,
+        <Card1
+          name={"Aruna S K"}
+          info={"CHRIST (Deemed to be University), Bangalore."}
+        />,
+        <Card1 name={"Reena Mamgain"} info={"Scientist F DRDO, Bangalore"} />,
+        <Card1
+          name={"RK Senthil Kumar"}
+          info={"Associate Director C-DAC ,Bangalore"}
+        />,
+        <Card1 name={"Jiteendra Kumar"} info={"C-DAC, Bangalore"} />,
+        <Card1 name={"Raghu K"} info={"C-DAC, Bangalore"} />,
       ],
     },
     {
@@ -338,7 +535,7 @@ export default function Committee() {
           }
           .accor.active > .body {
             padding: 10px 20px;
-            max-height: 2000px;
+            max-height: 3500px;
           }
         `}
       </style>
