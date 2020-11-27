@@ -41,8 +41,8 @@ const Nav = ({close})=>{
   <nav style={{
     backgroundColor:"lightblue",
   }} class="navbar navbar-expand-md navbar-dark ">
-    <a class="brand" style={{color:"firebrick",padding:40,fontSize:40}} href="#">
-      ICInPro
+    <a class="brand"  style={{color:"firebrick", textAlign:"center"}} href="#">
+    <img  height={100} width={150} src="/logo123.png" alt="logo" className="logo" />
     </a>
   
     
