@@ -36,19 +36,19 @@ export default function venue() {
             <table>
               <tr>
                 <td>Paper Submission Deadline : </td>
-                <td>31 Jan, 2021</td>
-              </tr>
-              <tr>
-                <td>Acceptance Notification : </td>
                 <td>31 March, 2021</td>
               </tr>
               <tr>
+                <td>Acceptance Notification : </td>
+                <td>31 May, 2021</td>
+              </tr>
+              <tr>
                 <td>Final Camera Ready Copy Submission : </td>
-                <td>15 April, 2021</td>
+                <td>15 June, 2021</td>
               </tr>
               <tr>
                 <td>Conference Dates : </td>
-                <td>20 Aug, 2021 to 22 Aug, 2021</td>
+                <td>22 Oct, 2021 to 24 Oct, 2021</td>
               </tr>
             </table>
           </div>
